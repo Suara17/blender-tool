@@ -1,0 +1,35 @@
+2025-09-09 10:30:53,103 - __main__ - INFO - 开始测试图案文件夹验证
+2025-09-09 10:30:53,103 - __main__ - INFO - 检查 stl_folder: D:\深度学习资料\实验记录\blender\selectmodel
+2025-09-09 10:30:53,103 - __main__ - INFO -   [OK] stl_folder 存在
+2025-09-09 10:30:53,104 - __main__ - INFO -   [INFO] stl_folder 包含 2 个项目
+2025-09-09 10:30:53,104 - __main__ - INFO -   [INFO] 找到 2 个STL文件
+2025-09-09 10:30:53,104 - __main__ - INFO -   [OK] STL文件夹中包含STL文件
+2025-09-09 10:30:53,104 - __main__ - INFO -     - 37384.stl
+2025-09-09 10:30:53,104 - __main__ - INFO -     - 37968.stl
+2025-09-09 10:30:53,104 - __main__ - INFO - 检查 pattern_folder: D:\深度学习资料\实验记录\blender\composite_pattern
+2025-09-09 10:30:53,104 - __main__ - ERROR -   [ERROR] pattern_folder 不存在: D:\深度学习资料\实验记录\blender\composite_pattern
+2025-09-09 10:30:53,104 - __main__ - INFO - 检查 output_folder: D:\深度学习资料\实验记录\blender\output
+2025-09-09 10:30:53,104 - __main__ - INFO -   [OK] output_folder 存在
+2025-09-09 10:30:53,104 - __main__ - INFO -   [INFO] output_folder 包含 6 个项目
+2025-09-09 10:30:53,104 - __main__ - INFO - 检查 hdri_path: D:\深度学习资料\实验记录\blender\HDRI\brown_photostudio_02_4k.hdr
+2025-09-09 10:30:53,104 - __main__ - INFO -   [OK] hdri_path 存在
+2025-09-09 10:30:53,104 - __main__ - INFO - 开始测试数据集生成
+2025-09-09 10:30:53,105 - __main__ - INFO - 开始测试图案文件夹验证
+2025-09-09 10:30:53,105 - __main__ - INFO - 检查 stl_folder: D:\深度学习资料\实验记录\blender\selectmodel
+2025-09-09 10:30:53,105 - __main__ - INFO -   [OK] stl_folder 存在
+2025-09-09 10:30:53,105 - __main__ - INFO -   [INFO] stl_folder 包含 2 个项目
+2025-09-09 10:30:53,105 - __main__ - INFO -   [INFO] 找到 2 个STL文件
+2025-09-09 10:30:53,105 - __main__ - INFO -   [OK] STL文件夹中包含STL文件
+2025-09-09 10:30:53,105 - __main__ - INFO -     - 37384.stl
+2025-09-09 10:30:53,105 - __main__ - INFO -     - 37968.stl
+2025-09-09 10:30:53,105 - __main__ - INFO - 检查 pattern_folder: D:\深度学习资料\实验记录\blender\composite_pattern
+2025-09-09 10:30:53,105 - __main__ - ERROR -   [ERROR] pattern_folder 不存在: D:\深度学习资料\实验记录\blender\composite_pattern
+2025-09-09 10:30:53,105 - __main__ - INFO - 检查 output_folder: D:\深度学习资料\实验记录\blender\output
+2025-09-09 10:30:53,106 - __main__ - INFO -   [OK] output_folder 存在
+2025-09-09 10:30:53,106 - __main__ - INFO -   [INFO] output_folder 包含 6 个项目
+2025-09-09 10:30:53,106 - __main__ - INFO - 检查 hdri_path: D:\深度学习资料\实验记录\blender\HDRI\brown_photostudio_02_4k.hdr
+2025-09-09 10:30:53,106 - __main__ - INFO -   [OK] hdri_path 存在
+2025-09-09 10:30:53,106 - __main__ - INFO - 创建BlenderMCPIntegration实例...
+2025-09-09 10:30:53,107 - __main__ - INFO - 测试Blender连接...
+2025-09-09 10:30:53,115 - __main__ - INFO - Blender连接测试结果: success=False, message=Blender executable not found. Please check the path in 'Advanced Settings': blender
+2025-09-09 10:30:53,115 - __main__ - ERROR - Blender连接失败: Blender executable not found. Please check the path in 'Advanced Settings': blender

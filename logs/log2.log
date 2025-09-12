@@ -1,0 +1,269 @@
+2025-09-12 18:43:08,501 - __main__ - INFO - === Blender Dataset GUI 启动 ===
+2025-09-12 18:43:08,502 - __main__ - INFO - 日志文件: logs\blender_dataset_gui.log
+2025-09-12 18:45:24,559 - __main__ - INFO - === 开始数据集生成过程 ===
+2025-09-12 18:45:24,559 - __main__ - INFO - 验证输入参数...
+2025-09-12 18:45:24,559 - __main__ - INFO - 开始验证输入参数...
+2025-09-12 18:45:24,560 - __main__ - INFO - STL文件夹路径: D:\深度学习资料\实验记录\blender\selectmodel
+2025-09-12 18:45:24,561 - __main__ - INFO - 在STL文件夹中找到 2 个STL文件
+2025-09-12 18:45:24,561 - __main__ - INFO - 图案文件夹路径: D:\深度学习资料\实验记录\blender\composite_pattern
+2025-09-12 18:45:24,562 - __main__ - INFO - 在图案文件夹中找到 1 个图像文件
+2025-09-12 18:45:24,562 - __main__ - INFO - 输出文件夹路径: D:\深度学习资料\实验记录\blender\output
+2025-09-12 18:45:24,562 - __main__ - INFO - 输出文件夹已准备就绪: D:\深度学习资料\实验记录\blender\output
+2025-09-12 18:45:24,563 - __main__ - INFO - 数值输入验证通过
+2025-09-12 18:45:24,563 - __main__ - INFO - 所有输入验证通过
+2025-09-12 18:45:24,563 - __main__ - INFO - 获取配置参数...
+2025-09-12 18:45:24,563 - __main__ - INFO - 配置参数获取完成: {"paths": {"stl_folder": "D:\\深度学习资料\\实验记录\\blender\\selectmodel", "pattern_folder": "D:\\深度学习资料\\实验记录\\blender\\composite_pattern", "output_folder": "D:\\深度学习资料\\实验记录\\blender\\output", "hdri_path": ...
+2025-09-12 18:45:24,563 - __main__ - INFO - 检查Blender连接...
+2025-09-12 18:45:24,563 - __main__ - INFO - 启动后台生成线程...
+2025-09-12 18:45:24,564 - __main__ - INFO - === 后台生成线程启动 ===
+2025-09-12 18:45:24,564 - __main__ - INFO - 后台生成线程已启动
+2025-09-12 18:45:24,564 - __main__ - INFO - 调用MCP集成生成数据集...
+2025-09-12 18:45:24,564 - blender_mcp_integration - INFO - === 开始生成数据集 ===
+2025-09-12 18:45:24,564 - blender_mcp_integration - INFO - 配置参数: {
+  "paths": {
+    "stl_folder": "D:\\深度学习资料\\实验记录\\blender\\selectmodel",
+    "pattern_folder": "D:\\深度学习资料\\实验记录\\blender\\composite_pattern",
+    "output_folder": "D:\\深度学习资料\\实验记录\\blender\\output",
+    "hdri_path": "D:\\深度学习资料\\实验记录\\blender\\HDRI\\brown_photostudio_02_4k.hdr"
+  },
+  "camera": {
+    "position": [
+      -100.0,
+      -300.0,
+      0.0
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      -17.0
+    ],
+    "focal_length": 50.0,
+    "clip_start": 10.0,
+    "clip_end": 1500.0
+  },
+  "projector": {
+    "position": [
+      100.0,
+      -300.0,
+      0.0
+    ],
+    "power": 4.5,
+    "power_drift": 0.5,
+    "use_discrete_power": false,
+    "fov": 60.0
+  },
+  "render": {
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "Cycles",
+    "samples": 512,
+    "ambient_base": 0.5,
+    "ambient_variation": 0.1
+  },
+  "advanced": {
+    "stl_max_size": 150.0,
+    "rotation_angles": [
+      0.0,
+      45.0
+    ],
+    "blender_path": "D:\\Program Files\\Blender Foundation\\Blender 4.4\\blender.exe",
+    "script_path": "D:\\blender-tool\\深度图数据集_v6.py"
+  }
+}
+2025-09-12 18:45:24,566 - blender_mcp_integration - INFO - 映射配置参数键名...
+2025-09-12 18:45:24,566 - blender_mcp_integration - INFO - 路径键名映射完成
+2025-09-12 18:45:24,566 - blender_mcp_integration - INFO - 所有参数键名映射完成
+2025-09-12 18:45:24,566 - blender_mcp_integration - INFO - 映射后配置参数: {
+  "paths": {
+    "stl_folder": "D:\\深度学习资料\\实验记录\\blender\\selectmodel",
+    "pattern_folder": "D:\\深度学习资料\\实验记录\\blender\\composite_pattern",
+    "output_folder": "D:\\深度学习资料\\实验记录\\blender\\output",
+    "hdri_path": "D:\\深度学习资料\\实验记录\\blender\\HDRI\\brown_photostudio_02_4k.hdr"
+  },
+  "camera": {
+    "position": [
+      -100.0,
+      -300.0,
+      0.0
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      -17.0
+    ],
+    "focal_length": 50.0,
+    "clip_start": 10.0,
+    "clip_end": 1500.0
+  },
+  "projector": {
+    "position": [
+      100.0,
+      -300.0,
+      0.0
+    ],
+    "power": 4.5,
+    "power_drift": 0.5,
+    "use_discrete_power": false,
+    "fov": 60.0
+  },
+  "render": {
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "Cycles",
+    "samples": 512,
+    "ambient_base": 0.5,
+    "ambient_variation": 0.1
+  },
+  "advanced": {
+    "stl_max_size": 150.0,
+    "rotation_angles": [
+      0.0,
+      45.0
+    ],
+    "blender_path": "D:\\Program Files\\Blender Foundation\\Blender 4.4\\blender.exe",
+    "script_path": "D:\\blender-tool\\深度图数据集_v6.py"
+  },
+  "stl_model_path": "D:\\深度学习资料\\实验记录\\blender\\selectmodel",
+  "pattern_path": "D:\\深度学习资料\\实验记录\\blender\\composite_pattern",
+  "output_path": "D:\\深度学习资料\\实验记录\\blender\\output",
+  "camera_x": -100.0,
+  "camera_y": -300.0,
+  "camera_z": 0.0,
+  "camera_rot_x": 90.0,
+  "camera_rot_y": 0.0,
+  "camera_rot_z": -17.0,
+  "focal_length": 50.0,
+  "clip_start": 10.0,
+  "clip_end": 1500.0,
+  "proj_x": 100.0,
+  "proj_y": -300.0,
+  "proj_z": 0.0,
+  "projector_energy": 4.5,
+  "proj_power_drift": 0.5,
+  "use_discrete_power": false,
+  "fov": 60.0,
+  "resolution_x": 640,
+  "resolution_y": 640,
+  "render_engine": "Cycles",
+  "render_samples": 512,
+  "ambient_base": 0.5,
+  "ambient_variation": 0.1,
+  "stl_max_size": 150.0,
+  "rotation_angles": [
+    0.0,
+    45.0
+  ],
+  "blender_path": "D:\\Program Files\\Blender Foundation\\Blender 4.4\\blender.exe",
+  "script_path": "D:\\blender-tool\\深度图数据集_v6.py"
+}
+2025-09-12 18:45:24,569 - blender_mcp_integration - INFO - 创建临时配置文件...
+2025-09-12 18:45:24,570 - blender_mcp_integration - INFO - 临时配置文件已创建: C:\Users\sua\AppData\Local\Temp\tmp8cvr0a5r.json
+2025-09-12 18:45:24,571 - __main__ - INFO - 进度更新: 10.0% - 正在准备Blender环境...
+2025-09-12 18:45:24,571 - blender_mcp_integration - INFO - 生成Blender脚本...
+2025-09-12 18:45:24,572 - blender_mcp_integration - INFO - Blender脚本生成完成 (3005 字符)
+2025-09-12 18:45:24,573 - blender_mcp_integration - INFO - 生成的脚本已保存到: debug_generated_script.py
+2025-09-12 18:45:24,573 - __main__ - INFO - 进度更新: 20.0% - 正在启动Blender...
+2025-09-12 18:45:24,579 - blender_mcp_integration - INFO - 执行Blender脚本...
+2025-09-12 18:45:24,579 - blender_mcp_integration - INFO - 开始执行Blender脚本...
+2025-09-12 18:45:24,582 - blender_mcp_integration - INFO - 临时脚本文件已创建: C:\Users\sua\AppData\Local\Temp\tmpt774om8m.py
+2025-09-12 18:45:24,582 - blender_mcp_integration - INFO - 检查Blender可执行文件: D:\Program Files\Blender Foundation\Blender 4.4\blender.exe
+2025-09-12 18:45:24,583 - blender_mcp_integration - INFO - Blender可执行文件检查通过
+2025-09-12 18:45:24,723 - blender_mcp_integration - INFO - 执行Blender命令: D:\Program Files\Blender Foundation\Blender 4.4\blender.exe --background --python C:\Users\sua\AppData\Local\Temp\tmpt774om8m.py
+2025-09-12 18:45:24,723 - __main__ - INFO - 进度更新: 30.0% - 正在执行Blender脚本...
+2025-09-12 18:45:24,723 - blender_mcp_integration - INFO - 启动Blender进程...
+2025-09-12 18:45:24,726 - blender_mcp_integration - INFO - 开始监控Blender输出...
+2025-09-12 18:45:25,597 - blender_mcp_integration - INFO - Blender输出: Reloading external rigs...
+2025-09-12 18:45:25,597 - blender_mcp_integration - INFO - Blender输出: Reloading external metarigs...
+2025-09-12 18:45:25,598 - blender_mcp_integration - INFO - Blender输出: BlenderMCP addon registered
+2025-09-12 18:45:25,598 - blender_mcp_integration - INFO - Blender输出: === Blender Dataset Generation Started ===
+2025-09-12 18:45:25,598 - blender_mcp_integration - INFO - Blender输出: Python version: {sys.version}
+2025-09-12 18:45:25,598 - blender_mcp_integration - INFO - Blender输出: Blender version: {bpy.app.version_string}
+2025-09-12 18:45:25,598 - blender_mcp_integration - INFO - Blender输出: Configuration loaded from: {config_path}
+2025-09-12 18:45:25,599 - blender_mcp_integration - INFO - Blender输出: This script directory: {this_script_dir}
+2025-09-12 18:45:25,599 - blender_mcp_integration - INFO - Blender输出: Script directory to add: {script_dir_to_add}
+2025-09-12 18:45:25,599 - blender_mcp_integration - INFO - Blender输出: Module name: {module_name}
+2025-09-12 18:45:25,600 - blender_mcp_integration - INFO - Blender输出: Updated sys.path: {sys.path}
+2025-09-12 18:45:25,600 - blender_mcp_integration - INFO - Blender输出: Attempting to import module: '{module_name}'
+2025-09-12 18:45:25,600 - blender_mcp_integration - INFO - Blender输出: Executing main script logic with config path...
+2025-09-12 18:45:25,600 - blender_mcp_integration - INFO - Blender输出: 开始执行Blender脚本...
+2025-09-12 18:45:25,600 - blender_mcp_integration - INFO - Blender输出: 成功加载并解析配置文件: C:\Users\sua\AppData\Local\Temp\tmp8cvr0a5r.json
+2025-09-12 18:45:25,601 - blender_mcp_integration - INFO - Blender输出: 成功加载配置文件: C:\Users\sua\AppData\Local\Temp\tmp8cvr0a5r.json
+2025-09-12 18:45:25,601 - blender_mcp_integration - INFO - Blender输出: --- 开始解析配置参数 ---
+2025-09-12 18:45:25,601 - blender_mcp_integration - INFO - Blender输出: - STL模型路径: D:\深度学习资料\实验记录\blender\selectmodel
+2025-09-12 18:45:25,601 - blender_mcp_integration - INFO - Blender输出: - 投影图案路径: D:\深度学习资料\实验记录\blender\composite_pattern
+2025-09-12 18:45:25,602 - blender_mcp_integration - INFO - Blender输出: - 输出路径: D:\深度学习资料\实验记录\blender\output
+2025-09-12 18:45:25,602 - blender_mcp_integration - INFO - Blender输出: - 投影仪功率: 4.5
+2025-09-12 18:45:25,602 - blender_mcp_integration - INFO - Blender输出: - 旋转角度: [0.0, 45.0]
+2025-09-12 18:45:25,602 - blender_mcp_integration - INFO - Blender输出: - 渲染采样数: 512
+2025-09-12 18:45:25,602 - blender_mcp_integration - INFO - Blender输出: - 分辨率: 640x640
+2025-09-12 18:45:25,603 - blender_mcp_integration - INFO - Blender输出: --- 参数解析完成 ---
+2025-09-12 18:45:25,603 - blender_mcp_integration - INFO - Blender输出: --- 开始设置渲染和场景 ---
+2025-09-12 18:45:25,603 - blender_mcp_integration - INFO - Blender输出: - 渲染引擎成功设置为 CYCLES
+2025-09-12 18:45:25,604 - blender_mcp_integration - INFO - Blender输出: - 警告：Cycles属性不可用，将使用默认设置
+2025-09-12 18:45:25,604 - blender_mcp_integration - INFO - Blender输出: - 渲染采样数设置为: 512
+2025-09-12 18:45:25,604 - blender_mcp_integration - INFO - Blender输出: - 分辨率设置为: 640x640
+2025-09-12 18:45:25,604 - blender_mcp_integration - INFO - Blender输出: 开始清理场景...
+2025-09-12 18:45:25,605 - blender_mcp_integration - INFO - Blender输出: 场景清理完毕。
+2025-09-12 18:45:25,605 - blender_mcp_integration - INFO - Blender输出: 设置相机...
+2025-09-12 18:45:25,605 - blender_mcp_integration - INFO - Blender输出: 相机设置完毕。
+2025-09-12 18:45:25,605 - blender_mcp_integration - INFO - Blender输出: 设置投影仪...
+2025-09-12 18:45:25,605 - blender_mcp_integration - INFO - Blender输出: - 创建新投影仪。
+2025-09-12 18:45:25,605 - blender_mcp_integration - INFO - Blender输出: - 功率设置为: 4.5
+2025-09-12 18:45:25,606 - blender_mcp_integration - INFO - Blender输出: - 投影仪节点设置完成。
+2025-09-12 18:45:25,606 - blender_mcp_integration - INFO - Blender输出: --- 渲染和场景设置完成 ---
+2025-09-12 18:45:25,606 - blender_mcp_integration - INFO - Blender输出: --- 开始加载资产 ---
+2025-09-12 18:45:25,606 - blender_mcp_integration - INFO - Blender输出: 从路径加载投影图案: D:\深度学习资料\实验记录\blender\composite_pattern
+2025-09-12 18:45:25,617 - blender_mcp_integration - INFO - Blender输出: - 成功加载图案: cosine_vertical_1024x1024_p20.png
+2025-09-12 18:45:25,617 - blender_mcp_integration - INFO - Blender输出: 共加载 1 个图案。
+2025-09-12 18:45:25,618 - blender_mcp_integration - INFO - Blender输出: - 找到 2 个STL文件待处理。
+2025-09-12 18:45:25,618 - blender_mcp_integration - INFO - Blender输出: --- 资产加载完成 ---
+2025-09-12 18:45:25,619 - blender_mcp_integration - INFO - Blender输出: --- 开始进入主渲染循环 ---
+2025-09-12 18:45:25,619 - blender_mcp_integration - INFO - Blender输出: --- 开始处理文件 1/2: 37384.stl ---
+2025-09-12 18:45:25,619 - blender_mcp_integration - INFO - Blender输出: 加载STL文件: D:\深度学习资料\实验记录\blender\selectmodel\37384.stl
+2025-09-12 18:45:25,628 - blender_mcp_integration - INFO - Blender输出: - 成功导入: 37384.stl
+2025-09-12 18:45:25,629 - blender_mcp_integration - INFO - Blender输出: 设置物体: 37384
+2025-09-12 18:45:25,629 - blender_mcp_integration - INFO - Blender输出: - 应用平滑着色。
+2025-09-12 18:45:25,629 - blender_mcp_integration - INFO - Blender输出: - 设置默认材质。
+2025-09-12 18:45:25,630 - blender_mcp_integration - INFO - Blender输出: 开始渲染环境光...
+2025-09-12 18:45:25,630 - blender_mcp_integration - INFO - Blender输出: - 正在渲染环境光到: D:\深度学习资料\实验记录\blender\output\37384_ambient.png
+2025-09-12 18:45:25,636 - blender_mcp_integration - INFO - Blender输出: Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+2025-09-12 18:45:25,637 - blender_mcp_integration - INFO - Blender输出: Timer 'STL Import' took 9.49 ms
+2025-09-12 18:45:25,637 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:26.45M (Peak 26.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 37384
+2025-09-12 18:45:25,638 - blender_mcp_integration - INFO - Blender输出: 帧:1 内存:27.95M (峰值 27.95M) | 时间:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+2025-09-12 18:45:25,638 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.78M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+2025-09-12 18:45:25,639 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+2025-09-12 18:45:25,639 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+2025-09-12 18:45:25,639 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+2025-09-12 18:45:25,639 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+2025-09-12 18:45:25,640 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+2025-09-12 18:45:25,640 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+2025-09-12 18:45:25,640 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
+2025-09-12 18:45:25,641 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+2025-09-12 18:45:25,641 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+2025-09-12 18:45:25,641 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+2025-09-12 18:45:25,642 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
+2025-09-12 18:45:25,642 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+2025-09-12 18:45:25,643 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
+2025-09-12 18:45:25,643 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.14M (Peak 28.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+2025-09-12 18:45:25,643 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+2025-09-12 18:45:25,644 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
+2025-09-12 18:45:25,644 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+2025-09-12 18:45:25,644 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.01 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+2025-09-12 18:45:25,647 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.01 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+2025-09-12 18:45:25,648 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.01 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Computing normals
+2025-09-12 18:45:25,648 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+2025-09-12 18:45:25,649 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Objects Flags
+2025-09-12 18:45:25,649 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Primitive Offsets
+2025-09-12 18:45:25,649 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images
+2025-09-12 18:45:25,649 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Camera Volume
+2025-09-12 18:45:25,650 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Lookup Tables
+2025-09-12 18:45:25,650 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Lights
+2025-09-12 18:45:25,650 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Lights | Computing tree
+2025-09-12 18:45:25,650 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Integrator
+2025-09-12 18:45:25,652 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Film
+2025-09-12 18:45:25,652 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.01 | Mem:1.89M, Peak:1.97M | Scene, ViewLayer | Updating Lookup Tables
+2025-09-12 18:45:25,655 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.01

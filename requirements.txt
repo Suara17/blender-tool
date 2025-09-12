@@ -1,0 +1,17 @@
+# Blender Dataset Generator GUI Requirements
+# Basic GUI and system integration
+
+# No external dependencies required - using built-in Python libraries:
+# - tkinter (GUI framework)
+# - subprocess (process management)
+# - json (configuration handling)
+# - threading (background processing)
+# - tempfile (temporary file management)
+# - pathlib (path handling)
+
+# Optional: For enhanced tooltips
+#tkinter-tooltip>=2.0.0
+
+# Development dependencies (optional)
+pytest>=7.0.0  # For testing
+black>=22.0.0  # For code formatting

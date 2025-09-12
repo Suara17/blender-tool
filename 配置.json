@@ -1,0 +1,53 @@
+{
+  "paths": {
+    "stl_folder": "D:\\深度学习资料\\实验记录\\blender\\selectmodel",
+    "pattern_folder": "D:\\深度学习资料\\实验记录\\blender\\composite_pattern",
+    "output_folder": "D:\\深度学习资料\\实验记录\\blender\\output",
+    "hdri_path": "D:\\深度学习资料\\实验记录\\blender\\HDRI\\brown_photostudio_02_4k.hdr"
+  },
+  "camera": {
+    "position": [
+      -100,
+      -300,
+      0
+    ],
+    "rotation": [
+      90,
+      0,
+      -17
+    ],
+    "focal_length": 50.0,
+    "clip_start": 10.0,
+    "clip_end": 1500.0
+  },
+  "projector": {
+    "position": [
+      100,
+      -300,
+      0
+    ],
+    "power": 4.5,
+    "power_drift": 0.5,
+    "use_discrete_power": false,
+    "fov": 60.0
+  },
+  "render": {
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "Cycles",
+    "samples": 512,
+    "ambient_base": 0.5,
+    "ambient_variation": 0.1
+  },
+  "advanced": {
+    "stl_max_size": 150.0,
+    "rotation_angles": [
+      0,
+      45
+    ],
+    "blender_path": "D:\\Program Files\\Blender Foundation\\Blender 4.4\\blender.exe",
+    "script_path": "D:\\blender-tool\\深度图数据集_v6.py"
+  }
+}
