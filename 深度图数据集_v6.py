@@ -235,7 +235,9 @@ def render_projection(obj, projector, pattern_images, output_path, stl_file, ang
 
         # 设置输出文件名
         # 文件名格式: 模型名_角度_图案序号_pattern.png
-        filename = f"{base_name}_{angle:03d}_{i+1:06d}_pattern.png"
+        # 确保角度是整数以避免格式化错误
+        angle_int = int(angle)
+        filename = f"{base_name}_{angle_int:03d}_{i+1:06d}_pattern.png"
         filepath = os.path.join(output_path, filename)
         bpy.context.scene.render.filepath = filepath
         
@@ -285,10 +287,14 @@ def main_script_logic(config_path):
         # --- 2. 设置渲染和场景 ---
         print("--- 开始设置渲染和场景 ---", flush=True)
         # 设置渲染引擎
-        bpy.context.scene.render.engine = render_engine
+        # 兼容Blender 4.4及更高版本的渲染引擎命名
+        if render_engine.upper() == 'CYCLES':
+            bpy.context.scene.render.engine = 'CYCLES'
+        else:
+            bpy.context.scene.render.engine = render_engine
         bpy.context.view_layer.update()
 
-        if bpy.context.scene.render.engine == 'CYCLES':
+        if bpy.context.scene.render.engine in ['CYCLES']:
             print("  - 渲染引擎成功设置为 CYCLES", flush=True)
             try:
                 if hasattr(bpy.context.scene.render, 'cycles'):
@@ -361,10 +367,12 @@ def main_script_logic(config_path):
             # 循环结束后重置旋转
             obj.rotation_euler.z = 0
             
-            # 清理加载的物体
+            # 清理加载的物体和关联的网格数据（在删除对象前检查对象是否存在）
+            if obj and obj.data:
+                # 先移除网格数据
+                bpy.data.meshes.remove(obj.data)
+            # 再移除对象
             bpy.data.objects.remove(obj)
-            # 清理关联的网格数据
-            bpy.data.meshes.remove(obj.data)
             print(f"  - 已清理加载的物体和网格数据。", flush=True)
             print(f"--- 文件 {stl_file} 处理完毕 ---", flush=True)
 
