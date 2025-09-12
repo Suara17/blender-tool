@@ -1,7 +1,82 @@
-2025-09-12 21:02:49,980 - __main__ - INFO - 后台生成线程已启动
-2025-09-12 21:02:49,980 - __main__ - INFO - 调用MCP集成生成数据集...
-2025-09-12 21:02:49,980 - blender_mcp_integration - INFO - === 开始生成数据集 ===
-2025-09-12 21:02:49,980 - blender_mcp_integration - INFO - 配置参数: {
+ Time:00:00.01 | Remaining:00:07.98 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 1/4096
+Blender: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.01 | Remaining:00:07.98 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 1/4096
+2025-09-12 21:33:36,696 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.37 | Remaining:00:18.34 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 80/4096
+Blender: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.37 | Remaining:00:18.34 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 80/4096
+2025-09-12 21:33:36,911 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.59 | Remaining:00:29.14 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 0/4096
+Blender: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.59 | Remaining:00:29.14 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 0/4096
+2025-09-12 21:33:36,911 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.59 | Remaining:00:29.14 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Finished
+Blender: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.59 | Remaining:00:29.14 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Finished
+2025-09-12 21:33:36,916 - blender_mcp_integration - INFO - Blender输出: Saved: 'D:\深度学习资料\实验记录
+\blender\output\37384_045_000001_pattern.png'
+Blender: Saved: 'D:\深度学习资料\实验记录\blender\output\37384_045_000001_pattern.png'
+2025-09-12 21:33:36,916 - blender_mcp_integration - INFO - Blender输出: Time: 00:00.59 (Saving: 00:00.00)
+Blender: Time: 00:00.59 (Saving: 00:00.00)
+2025-09-12 21:33:36,917 - blender_mcp_integration - INFO - Blender输出:
+Blender:
+2025-09-12 21:33:36,917 - blender_mcp_integration - INFO - Blender输出: - 渲染完成。
+Blender: - 渲染完成。
+2025-09-12 21:33:36,918 - blender_mcp_integration - INFO - Blender输出: 投影渲染完成。
+Blender: 投影渲染完成。
+2025-09-12 21:33:36,918 - blender_mcp_integration - INFO - Blender输出: 脚本执行过程中发生严重错误: StructRNA of type Object has been removed
+Blender: 脚本执行过程中发生严重错误: StructRNA of type Object has been removed
+2025-09-12 21:33:36,918 - blender_mcp_integration - INFO - Blender输出: Traceback (most recent call last):
+Blender: Traceback (most recent call last):
+2025-09-12 21:33:36,918 - blender_mcp_integration - INFO - Blender输出: File "D:\blender-tool\深度图数据
+集_v6.py", line 373, in main_script_logic
+Blender: File "D:\blender-tool\深度图数据集_v6.py", line 373, in main_script_logic
+2025-09-12 21:33:36,919 - blender_mcp_integration - INFO - Blender输出: if obj and obj.data:
+Blender: if obj and obj.data:
+2025-09-12 21:33:36,938 - blender_mcp_integration - INFO - Blender输出: ^^^^^^^^
+Blender: ^^^^^^^^
+2025-09-12 21:33:36,953 - blender_mcp_integration - INFO - Blender输出: ReferenceError: StructRNA of type Object has been removed
+Blender: ReferenceError: StructRNA of type Object has been removed
+2025-09-12 21:33:36,956 - blender_mcp_integration - INFO - Blender输出:
+Blender:
+2025-09-12 21:33:36,962 - blender_mcp_integration - INFO - Blender输出: BlenderMCP addon unregistered
+Blender: BlenderMCP addon unregistered
+2025-09-12 21:33:37,098 - blender_mcp_integration - INFO - Blender输出: 
+Blender: 
+2025-09-12 21:33:37,098 - blender_mcp_integration - INFO - Blender输出: Blender quit
+Blender: Blender quit
+2025-09-12 21:33:37,124 - blender_mcp_integration - INFO - Blender进程返回码: 0
+2025-09-12 21:33:37,124 - blender_mcp_integration - INFO - Blender执行完成，发现 0 个输出文件
+2025-09-12 21:33:37,124 - blender_mcp_integration - INFO - 参数文件:
+2025-09-12 21:33:37,125 - __main__ - INFO - 进度更新: 95.0% - 正在完成...
+2025-09-12 21:33:37,126 - blender_mcp_integration - INFO - 临时脚本文件已清理
+2025-09-12 21:33:37,126 - blender_mcp_integration - INFO - Blender执行结果: {'output_files': [], 'parameters_file': ''}
+2025-09-12 21:33:37,127 - blender_mcp_integration - INFO - 临时配置文件已清理
+2025-09-12 21:33:37,128 - __main__ - INFO - MCP集成返回结果: success=True, message=数据集生成完成
+2025-09-12 21:33:37,128 - __main__ - INFO - 数据集生成成功，更新UI状态
+2025-09-12 21:33:37,129 - __main__ - INFO - === 数据集生成完成 ===
+2025-09-12 21:33:37,129 - __main__ - INFO - 后台生成线程结束
+2025-09-12 21:33:37,136 - __main__ - INFO - 生成完成 - 输出文件: 0 个
+2025-09-12 21:33:37,137 - __main__ - INFO - 参数文件:
+
+(venv) D:\blender-tool>Python blender_dataset_gui.py
+2025-09-12 21:37:05,659 - __main__ - INFO - === Blender Dataset GUI 启动 ===
+2025-09-12 21:37:05,659 - __main__ - INFO - 日志文件: logs\blender_dataset_gui.log
+默认配置已加载: 配置.json
+2025-09-12 21:37:19,748 - __main__ - INFO - === 开始数据集生成过程 ===
+2025-09-12 21:37:19,749 - __main__ - INFO - 验证输入参数...
+2025-09-12 21:37:19,749 - __main__ - INFO - 开始验证输入参数...
+2025-09-12 21:37:19,749 - __main__ - INFO - STL文件夹路径: D:\深度学习资料\实验记录\blender\selectmodel 
+2025-09-12 21:37:19,749 - __main__ - INFO - 在STL文件夹中找到 2 个STL文件
+2025-09-12 21:37:19,750 - __main__ - INFO - 图案文件夹路径: D:\深度学习资料\实验记录\blender\composite_pattern
+2025-09-12 21:37:19,750 - __main__ - INFO - 在图案文件夹中找到 1 个图像文件
+2025-09-12 21:37:19,750 - __main__ - INFO - 输出文件夹路径: D:\深度学习资料\实验记录\blender\output     
+2025-09-12 21:37:19,751 - __main__ - INFO - 输出文件夹已准备就绪: D:\深度学习资料\实验记录\blender\output
+2025-09-12 21:37:19,751 - __main__ - INFO - 数值输入验证通过
+2025-09-12 21:37:19,751 - __main__ - INFO - 所有输入验证通过
+2025-09-12 21:37:19,751 - __main__ - INFO - 获取配置参数...
+2025-09-12 21:37:19,752 - __main__ - INFO - 配置参数获取完成: {"paths": {"stl_folder": "D:\\深度学习资料
+\\实验记录\\blender\\selectmodel", "pattern_folder": "D:\\深度学习资料\\实验记录\\blender\\composite_pattern", "output_folder": "D:\\深度学习资料\\实验记录\\blender\\output", "hdri_path": ...
+2025-09-12 21:37:19,752 - __main__ - INFO - 检查Blender连接...
+2025-09-12 21:37:19,752 - __main__ - INFO - 启动后台生成线程...
+2025-09-12 21:37:19,752 - __main__ - INFO - === 后台生成线程启动 ===
+2025-09-12 21:37:19,752 - __main__ - INFO - 后台生成线程已启动
+2025-09-12 21:37:19,753 - __main__ - INFO - 调用MCP集成生成数据集...
+2025-09-12 21:37:19,753 - blender_mcp_integration - INFO - === 开始生成数据集 ===
+2025-09-12 21:37:19,753 - blender_mcp_integration - INFO - 配置参数: {
   "paths": {
     "stl_folder": "D:\\深度学习资料\\实验记录\\blender\\selectmodel",
     "pattern_folder": "D:\\深度学习资料\\实验记录\\blender\\composite_pattern",
@@ -36,11 +111,11 @@
   },
   "render": {
     "resolution": [
-      100,
+      200,
       200
     ],
     "engine": "Cycles",
-    "samples": 512,
+    "samples": 100,
     "ambient_base": 0.5,
     "ambient_variation": 0.1
   },
@@ -54,10 +129,10 @@
     "script_path": "D:\\blender-tool\\深度图数据集_v6.py"
   }
 }
-2025-09-12 21:02:49,982 - blender_mcp_integration - INFO - 映射配置参数键名...
-2025-09-12 21:02:49,982 - blender_mcp_integration - INFO - 路径键名映射完成
-2025-09-12 21:02:49,982 - blender_mcp_integration - INFO - 所有参数键名映射完成
-2025-09-12 21:02:49,983 - blender_mcp_integration - INFO - 映射后配置参数: {
+2025-09-12 21:37:19,754 - blender_mcp_integration - INFO - 映射配置参数键名...
+2025-09-12 21:37:19,754 - blender_mcp_integration - INFO - 路径键名映射完成
+2025-09-12 21:37:19,755 - blender_mcp_integration - INFO - 所有参数键名映射完成
+2025-09-12 21:37:19,755 - blender_mcp_integration - INFO - 映射后配置参数: {
   "paths": {
     "stl_folder": "D:\\深度学习资料\\实验记录\\blender\\selectmodel",
     "pattern_folder": "D:\\深度学习资料\\实验记录\\blender\\composite_pattern",
@@ -92,11 +167,11 @@
   },
   "render": {
     "resolution": [
-      100,
+      200,
       200
     ],
     "engine": "Cycles",
-    "samples": 512,
+    "samples": 100,
     "ambient_base": 0.5,
     "ambient_variation": 0.1
   },
@@ -128,10 +203,10 @@
   "proj_power_drift": 0.5,
   "use_discrete_power": false,
   "fov": 60.0,
-  "resolution_x": 100,
+  "resolution_x": 200,
   "resolution_y": 200,
   "render_engine": "Cycles",
-  "render_samples": 512,
+  "render_samples": 100,
   "ambient_base": 0.5,
   "ambient_variation": 0.1,
   "stl_max_size": 150.0,
@@ -142,592 +217,475 @@
   "blender_path": "D:\\Program Files\\Blender Foundation\\Blender 4.4\\blender.exe",
   "script_path": "D:\\blender-tool\\深度图数据集_v6.py"
 }
-2025-09-12 21:02:49,985 - blender_mcp_integration - INFO - 创建临时配置文件...
-2025-09-12 21:02:49,986 - blender_mcp_integration - INFO - 临时配置文件已创建: C:\Users\sua\AppData\Local\Temp\tmpdnmfch1w.json
-2025-09-12 21:02:49,986 - __main__ - INFO - 进度更新: 10.0% - 正在准备Blender环境...
-2025-09-12 21:02:49,986 - blender_mcp_integration - INFO - 生成Blender脚本...
-2025-09-12 21:02:49,987 - blender_mcp_integration - INFO - Blender脚本生成完成 (3005 字符)
-2025-09-12 21:02:49,988 - blender_mcp_integration - INFO - 生成的脚本已保存到: debug_generated_script.py
-2025-09-12 21:02:49,989 - __main__ - INFO - 进度更新: 20.0% - 正在启动Blender...
-2025-09-12 21:02:49,989 - blender_mcp_integration - INFO - 执行Blender脚本...
-2025-09-12 21:02:49,989 - blender_mcp_integration - INFO - 开始执行Blender脚本...
-2025-09-12 21:02:49,990 - blender_mcp_integration - INFO - 临时脚本文件已创建: C:\Users\sua\AppData\Local\Temp\tmp0faenbo0.py
-2025-09-12 21:02:49,990 - blender_mcp_integration - INFO - 检查Blender可执行文件: D:\Program Files\Blender Foundation\Blender 4.4\blender.exe
-2025-09-12 21:02:49,991 - blender_mcp_integration - INFO - Blender可执行文件检查通过
-2025-09-12 21:02:50,107 - blender_mcp_integration - INFO - 执行Blender命令: D:\Program Files\Blender Foundation\Blender 4.4\blender.exe --background --python C:\Users\sua\AppData\Local\Temp\tmp0faenbo0.py
-2025-09-12 21:02:50,108 - __main__ - INFO - 进度更新: 30.0% - 正在执行Blender脚本...
-2025-09-12 21:02:50,108 - blender_mcp_integration - INFO - 启动Blender进程...
-2025-09-12 21:02:50,111 - blender_mcp_integration - INFO - 开始监控Blender输出...
-2025-09-12 21:02:50,935 - blender_mcp_integration - INFO - Blender输出: Reloading external rigs...
+2025-09-12 21:37:19,757 - blender_mcp_integration - INFO - 创建临时配置文件...
+2025-09-12 21:37:19,758 - blender_mcp_integration - INFO - 临时配置文件已创建: C:\Users\sua\AppData\Local\Temp\tmpytgtxofd.json
+2025-09-12 21:37:19,758 - __main__ - INFO - 进度更新: 10.0% - 正在准备Blender环境...
+2025-09-12 21:37:19,759 - blender_mcp_integration - INFO - 生成Blender脚本...
+2025-09-12 21:37:19,759 - blender_mcp_integration - INFO - Blender脚本生成完成 (3005 字符)
+2025-09-12 21:37:19,761 - blender_mcp_integration - INFO - 生成的脚本已保存到: debug_generated_script.py2025-09-12 21:37:19,761 - __main__ - INFO - 进度更新: 20.0% - 正在启动Blender...
+2025-09-12 21:37:19,767 - blender_mcp_integration - INFO - 执行Blender脚本...
+2025-09-12 21:37:19,768 - blender_mcp_integration - INFO - 开始执行Blender脚本...
+2025-09-12 21:37:19,768 - blender_mcp_integration - INFO - 临时脚本文件已创建: C:\Users\sua\AppData\Local\Temp\tmpg8xskm9z.py
+2025-09-12 21:37:19,768 - blender_mcp_integration - INFO - 检查Blender可执行文件: D:\Program Files\Blender Foundation\Blender 4.4\blender.exe
+2025-09-12 21:37:19,769 - blender_mcp_integration - INFO - Blender可执行文件检查通过
+2025-09-12 21:37:19,886 - blender_mcp_integration - INFO - 执行Blender命令: D:\Program Files\Blender Foundation\Blender 4.4\blender.exe --background --python C:\Users\sua\AppData\Local\Temp\tmpg8xskm9z.py    
+2025-09-12 21:37:19,886 - __main__ - INFO - 进度更新: 30.0% - 正在执行Blender脚本...
+2025-09-12 21:37:19,886 - blender_mcp_integration - INFO - 启动Blender进程...
+2025-09-12 21:37:19,889 - blender_mcp_integration - INFO - 开始监控Blender输出...
+2025-09-12 21:37:20,681 - blender_mcp_integration - INFO - Blender输出: Reloading external rigs...
 Blender: Reloading external rigs...
-2025-09-12 21:02:50,936 - blender_mcp_integration - INFO - Blender输出: Reloading external metarigs...
+2025-09-12 21:37:20,681 - blender_mcp_integration - INFO - Blender输出: Reloading external metarigs...  
 Blender: Reloading external metarigs...
-2025-09-12 21:02:50,936 - blender_mcp_integration - INFO - Blender输出: BlenderMCP addon registered
+2025-09-12 21:37:20,681 - blender_mcp_integration - INFO - Blender输出: BlenderMCP addon registered     
 Blender: BlenderMCP addon registered
-2025-09-12 21:02:50,936 - blender_mcp_integration - INFO - Blender输出: === Blender Dataset Generation Started ===       
+2025-09-12 21:37:20,682 - blender_mcp_integration - INFO - Blender输出: === Blender Dataset Generation Started ===
 Blender: === Blender Dataset Generation Started ===
-2025-09-12 21:02:50,937 - blender_mcp_integration - INFO - Blender输出: Python version: {sys.version}
+2025-09-12 21:37:20,682 - blender_mcp_integration - INFO - Blender输出: Python version: {sys.version}   
 Blender: Python version: {sys.version}
-2025-09-12 21:02:50,937 - blender_mcp_integration - INFO - Blender输出: Blender version: {bpy.app.version_string}        
+2025-09-12 21:37:20,682 - blender_mcp_integration - INFO - Blender输出: Blender version: {bpy.app.version_string}
 Blender: Blender version: {bpy.app.version_string}
-2025-09-12 21:02:50,937 - blender_mcp_integration - INFO - Blender输出: Configuration loaded from: {config_path}
+2025-09-12 21:37:20,682 - blender_mcp_integration - INFO - Blender输出: Configuration loaded from: {config_path}
 Blender: Configuration loaded from: {config_path}
-2025-09-12 21:02:50,937 - blender_mcp_integration - INFO - Blender输出: This script directory: {this_script_dir}
+2025-09-12 21:37:20,683 - blender_mcp_integration - INFO - Blender输出: This script directory: {this_script_dir}
 Blender: This script directory: {this_script_dir}
-2025-09-12 21:02:50,938 - blender_mcp_integration - INFO - Blender输出: Script directory to add: {script_dir_to_add}     
+2025-09-12 21:37:20,683 - blender_mcp_integration - INFO - Blender输出: Script directory to add: {script_dir_to_add}
 Blender: Script directory to add: {script_dir_to_add}
-2025-09-12 21:02:50,938 - blender_mcp_integration - INFO - Blender输出: Module name: {module_name}
+2025-09-12 21:37:20,683 - blender_mcp_integration - INFO - Blender输出: Module name: {module_name}      
 Blender: Module name: {module_name}
-2025-09-12 21:02:50,938 - blender_mcp_integration - INFO - Blender输出: Updated sys.path: {sys.path}
+2025-09-12 21:37:20,683 - blender_mcp_integration - INFO - Blender输出: Updated sys.path: {sys.path}    
 Blender: Updated sys.path: {sys.path}
-2025-09-12 21:02:50,938 - blender_mcp_integration - INFO - Blender输出: Attempting to import module: '{module_name}'     
+2025-09-12 21:37:20,683 - blender_mcp_integration - INFO - Blender输出: Attempting to import module: '{module_name}'
 Blender: Attempting to import module: '{module_name}'
-2025-09-12 21:02:50,939 - blender_mcp_integration - INFO - Blender输出: Executing main script logic with config path...  
+2025-09-12 21:37:20,684 - blender_mcp_integration - INFO - Blender输出: Executing main script logic with config path...
 Blender: Executing main script logic with config path...
-2025-09-12 21:02:50,939 - blender_mcp_integration - INFO - Blender输出: 开始执行Blender脚本...
+2025-09-12 21:37:20,684 - blender_mcp_integration - INFO - Blender输出: 开始执行Blender脚本...
 Blender: 开始执行Blender脚本...
-2025-09-12 21:02:50,939 - blender_mcp_integration - INFO - Blender输出: 成功加载并解析配置文件: C:\Users\sua\AppData\Local\Temp\tmpdnmfch1w.json
-Blender: 成功加载并解析配置文件: C:\Users\sua\AppData\Local\Temp\tmpdnmfch1w.json
-2025-09-12 21:02:50,939 - blender_mcp_integration - INFO - Blender输出: 成功加载配置文件: C:\Users\sua\AppData\Local\Temp\tmpdnmfch1w.json
-Blender: 成功加载配置文件: C:\Users\sua\AppData\Local\Temp\tmpdnmfch1w.json
-2025-09-12 21:02:50,940 - blender_mcp_integration - INFO - Blender输出: --- 开始解析配置参数 ---
+2025-09-12 21:37:20,684 - blender_mcp_integration - INFO - Blender输出: 成功加载并解析配置文件: C:\Users\sua\AppData\Local\Temp\tmpytgtxofd.json
+Blender: 成功加载并解析配置文件: C:\Users\sua\AppData\Local\Temp\tmpytgtxofd.json
+2025-09-12 21:37:20,685 - blender_mcp_integration - INFO - Blender输出: 成功加载配置文件: C:\Users\sua\AppData\Local\Temp\tmpytgtxofd.json
+Blender: 成功加载配置文件: C:\Users\sua\AppData\Local\Temp\tmpytgtxofd.json
+2025-09-12 21:37:20,685 - blender_mcp_integration - INFO - Blender输出: --- 开始解析配置参数 ---        
 Blender: --- 开始解析配置参数 ---
-2025-09-12 21:02:50,940 - blender_mcp_integration - INFO - Blender输出: - STL模型路径: D:\深度学习资料\实验记录\blender\selectmodel
+2025-09-12 21:37:20,686 - blender_mcp_integration - INFO - Blender输出: - STL模型路径: D:\深度学习资料\ 
+实验记录\blender\selectmodel
 Blender: - STL模型路径: D:\深度学习资料\实验记录\blender\selectmodel
-2025-09-12 21:02:50,940 - blender_mcp_integration - INFO - Blender输出: - 投影图案路径: D:\深度学习资料\实验记录\blender\composite_pattern
+2025-09-12 21:37:20,686 - blender_mcp_integration - INFO - Blender输出: - 投影图案路径: D:\深度学习资料\实验记录\blender\composite_pattern
 Blender: - 投影图案路径: D:\深度学习资料\实验记录\blender\composite_pattern
-2025-09-12 21:02:50,941 - blender_mcp_integration - INFO - Blender输出: - 输出路径: D:\深度学习资料\实验记录\blender\output
+2025-09-12 21:37:20,686 - blender_mcp_integration - INFO - Blender输出: - 输出路径: D:\深度学习资料\实验
+记录\blender\output
 Blender: - 输出路径: D:\深度学习资料\实验记录\blender\output
-2025-09-12 21:02:50,941 - blender_mcp_integration - INFO - Blender输出: - 旋转角度: [0.0, 45.0]
+2025-09-12 21:37:20,687 - blender_mcp_integration - INFO - Blender输出: - 旋转角度: [0.0, 45.0]
 Blender: - 旋转角度: [0.0, 45.0]
-2025-09-12 21:02:50,941 - blender_mcp_integration - INFO - Blender输出: - 渲染采样数: 512
-Blender: - 渲染采样数: 512
-2025-09-12 21:02:50,942 - blender_mcp_integration - INFO - Blender输出: - 分辨率: 100x200
-Blender: - 分辨率: 100x200
-2025-09-12 21:02:50,942 - blender_mcp_integration - INFO - Blender输出: --- 参数解析完成 ---
+2025-09-12 21:37:20,687 - blender_mcp_integration - INFO - Blender输出: - 渲染采样数: 100
+Blender: - 渲染采样数: 100
+2025-09-12 21:37:20,687 - blender_mcp_integration - INFO - Blender输出: - 分辨率: 200x200
+Blender: - 分辨率: 200x200
+2025-09-12 21:37:20,687 - blender_mcp_integration - INFO - Blender输出: --- 参数解析完成 ---
 Blender: --- 参数解析完成 ---
-2025-09-12 21:02:50,942 - blender_mcp_integration - INFO - Blender输出: --- 开始设置渲染和场景 ---
+2025-09-12 21:37:20,687 - blender_mcp_integration - INFO - Blender输出: --- 开始设置渲染和场景 ---      
 Blender: --- 开始设置渲染和场景 ---
-2025-09-12 21:02:50,942 - blender_mcp_integration - INFO - Blender输出: - 渲染引擎成功设置为 CYCLES
+2025-09-12 21:37:20,687 - blender_mcp_integration - INFO - Blender输出: - 渲染引擎成功设置为 CYCLES     
 Blender: - 渲染引擎成功设置为 CYCLES
-2025-09-12 21:02:50,943 - blender_mcp_integration - INFO - Blender输出: - 警告：Cycles属性不可用，将使用默认设置
+2025-09-12 21:37:20,688 - blender_mcp_integration - INFO - Blender输出: - 警告：Cycles属性不可用，将使用
+默认设置
 Blender: - 警告：Cycles属性不可用，将使用默认设置
-2025-09-12 21:02:50,943 - blender_mcp_integration - INFO - Blender输出: - 渲染采样数设置为: 512
-Blender: - 渲染采样数设置为: 512
-2025-09-12 21:02:50,943 - blender_mcp_integration - INFO - Blender输出: - 分辨率设置为: 100x200
-Blender: - 分辨率设置为: 100x200
-2025-09-12 21:02:50,944 - blender_mcp_integration - INFO - Blender输出: 开始清理场景...
+2025-09-12 21:37:20,688 - blender_mcp_integration - INFO - Blender输出: - 渲染采样数设置为: 100
+Blender: - 渲染采样数设置为: 100
+2025-09-12 21:37:20,688 - blender_mcp_integration - INFO - Blender输出: - 分辨率设置为: 200x200
+Blender: - 分辨率设置为: 200x200
+2025-09-12 21:37:20,688 - blender_mcp_integration - INFO - Blender输出: 开始清理场景...
 Blender: 开始清理场景...
-2025-09-12 21:02:50,944 - blender_mcp_integration - INFO - Blender输出: 场景清理完毕。
+2025-09-12 21:37:20,689 - blender_mcp_integration - INFO - Blender输出: 场景清理完毕。
 Blender: 场景清理完毕。
-2025-09-12 21:02:50,944 - blender_mcp_integration - INFO - Blender输出: 设置相机...
+2025-09-12 21:37:20,689 - blender_mcp_integration - INFO - Blender输出: 设置相机...
 Blender: 设置相机...
-2025-09-12 21:02:50,945 - blender_mcp_integration - INFO - Blender输出: 相机设置完毕。
+2025-09-12 21:37:20,689 - blender_mcp_integration - INFO - Blender输出: 相机设置完毕。
 Blender: 相机设置完毕。
-2025-09-12 21:02:50,945 - blender_mcp_integration - INFO - Blender输出: 设置投影仪...
+2025-09-12 21:37:20,689 - blender_mcp_integration - INFO - Blender输出: 设置投影仪...
 Blender: 设置投影仪...
-2025-09-12 21:02:50,946 - blender_mcp_integration - INFO - Blender输出: - 创建新投影仪。
+2025-09-12 21:37:20,690 - blender_mcp_integration - INFO - Blender输出: - 创建新投影仪。
 Blender: - 创建新投影仪。
-2025-09-12 21:02:50,946 - blender_mcp_integration - INFO - Blender输出: - 功率设置为: 4.5
+2025-09-12 21:37:20,690 - blender_mcp_integration - INFO - Blender输出: - 功率设置为: 4.5
 Blender: - 功率设置为: 4.5
-2025-09-12 21:02:50,946 - blender_mcp_integration - INFO - Blender输出: - 视场角设置为: 60.0
+2025-09-12 21:37:20,690 - blender_mcp_integration - INFO - Blender输出: - 视场角设置为: 60.0
 Blender: - 视场角设置为: 60.0
-2025-09-12 21:02:50,947 - blender_mcp_integration - INFO - Blender输出: - 投影仪节点设置完成。
+2025-09-12 21:37:20,690 - blender_mcp_integration - INFO - Blender输出: - 投影仪节点设置完成。
 Blender: - 投影仪节点设置完成。
-2025-09-12 21:02:50,947 - blender_mcp_integration - INFO - Blender输出: --- 渲染和场景设置完成 ---
+2025-09-12 21:37:20,690 - blender_mcp_integration - INFO - Blender输出: --- 渲染和场景设置完成 ---      
 Blender: --- 渲染和场景设置完成 ---
-2025-09-12 21:02:50,947 - blender_mcp_integration - INFO - Blender输出: --- 开始加载资产 ---
+2025-09-12 21:37:20,691 - blender_mcp_integration - INFO - Blender输出: --- 开始加载资产 ---
 Blender: --- 开始加载资产 ---
-2025-09-12 21:02:50,947 - blender_mcp_integration - INFO - Blender输出: 从路径加载投影图案: D:\深度学习资料\实验记录\blender\composite_pattern
+2025-09-12 21:37:20,691 - blender_mcp_integration - INFO - Blender输出: 从路径加载投影图案: D:\深度学习 
+资料\实验记录\blender\composite_pattern
 Blender: 从路径加载投影图案: D:\深度学习资料\实验记录\blender\composite_pattern
-2025-09-12 21:02:50,957 - blender_mcp_integration - INFO - Blender输出: - 成功加载图案: cosine_vertical_1024x1024_p20.pngBlender: - 成功加载图案: cosine_vertical_1024x1024_p20.png
-2025-09-12 21:02:50,958 - blender_mcp_integration - INFO - Blender输出: 共加载 1 个图案。
+2025-09-12 21:37:20,702 - blender_mcp_integration - INFO - Blender输出: - 成功加载图案: cosine_vertical_1024x1024_p20.png
+Blender: - 成功加载图案: cosine_vertical_1024x1024_p20.png
+2025-09-12 21:37:20,703 - blender_mcp_integration - INFO - Blender输出: 共加载 1 个图案。
 Blender: 共加载 1 个图案。
-2025-09-12 21:02:50,958 - blender_mcp_integration - INFO - Blender输出: - 找到 2 个STL文件待处理。
+2025-09-12 21:37:20,703 - blender_mcp_integration - INFO - Blender输出: - 找到 2 个STL文件待处理。      
 Blender: - 找到 2 个STL文件待处理。
-2025-09-12 21:02:50,958 - blender_mcp_integration - INFO - Blender输出: --- 资产加载完成 ---
+2025-09-12 21:37:20,703 - blender_mcp_integration - INFO - Blender输出: --- 资产加载完成 ---
 Blender: --- 资产加载完成 ---
-2025-09-12 21:02:50,958 - blender_mcp_integration - INFO - Blender输出: --- 开始进入主渲染循环 ---
+2025-09-12 21:37:20,703 - blender_mcp_integration - INFO - Blender输出: --- 开始进入主渲染循环 ---      
 Blender: --- 开始进入主渲染循环 ---
-2025-09-12 21:02:50,959 - blender_mcp_integration - INFO - Blender输出: --- 开始处理文件 1/2: 37384.stl ---
+2025-09-12 21:37:20,704 - blender_mcp_integration - INFO - Blender输出: --- 开始处理文件 1/2: 37384.stl 
+---
 Blender: --- 开始处理文件 1/2: 37384.stl ---
-2025-09-12 21:02:50,959 - blender_mcp_integration - INFO - Blender输出: 加载STL文件: D:\深度学习资料\实验记录\blender\selectmodel\37384.stl
+2025-09-12 21:37:20,704 - blender_mcp_integration - INFO - Blender输出: 加载STL文件: D:\深度学习资料\实 
+验记录\blender\selectmodel\37384.stl
 Blender: 加载STL文件: D:\深度学习资料\实验记录\blender\selectmodel\37384.stl
-2025-09-12 21:02:50,967 - blender_mcp_integration - INFO - Blender输出: - 成功导入: 37384.stl
+2025-09-12 21:37:20,710 - blender_mcp_integration - INFO - Blender输出: - 成功导入: 37384.stl
 Blender: - 成功导入: 37384.stl
-2025-09-12 21:02:50,968 - blender_mcp_integration - INFO - Blender输出: 设置物体: 37384
+2025-09-12 21:37:20,711 - blender_mcp_integration - INFO - Blender输出: 设置物体: 37384
 Blender: 设置物体: 37384
-2025-09-12 21:02:50,968 - blender_mcp_integration - INFO - Blender输出: - 应用平滑着色。
+2025-09-12 21:37:20,711 - blender_mcp_integration - INFO - Blender输出: - 应用平滑着色。
 Blender: - 应用平滑着色。
-2025-09-12 21:02:50,968 - blender_mcp_integration - INFO - Blender输出: - 设置默认材质。
+2025-09-12 21:37:20,712 - blender_mcp_integration - INFO - Blender输出: - 设置默认材质。
 Blender: - 设置默认材质。
-2025-09-12 21:02:50,968 - blender_mcp_integration - INFO - Blender输出: 开始渲染环境光...
+2025-09-12 21:37:20,712 - blender_mcp_integration - INFO - Blender输出: 开始渲染环境光...
 Blender: 开始渲染环境光...
-2025-09-12 21:02:50,969 - blender_mcp_integration - INFO - Blender输出: - 正在渲染环境光到: D:\深度学习资料\实验记录\blender\output\37384_ambient.png
+2025-09-12 21:37:20,713 - blender_mcp_integration - INFO - Blender输出: - 正在渲染环境光到: D:\深度学习 
+资料\实验记录\blender\output\37384_ambient.png
 Blender: - 正在渲染环境光到: D:\深度学习资料\实验记录\blender\output\37384_ambient.png
-2025-09-12 21:02:50,971 - blender_mcp_integration - INFO - Blender输出: Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+2025-09-12 21:37:20,714 - blender_mcp_integration - INFO - Blender输出: Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
 Blender: Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
-2025-09-12 21:02:50,971 - blender_mcp_integration - INFO - Blender输出: Timer 'STL Import' took 8.89 ms
-Blender: Timer 'STL Import' took 8.89 ms
-2025-09-12 21:02:50,972 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:26.45M (Peak 26.45M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 37384
+2025-09-12 21:37:20,715 - blender_mcp_integration - INFO - Blender输出: Timer 'STL Import' took 6.90 ms 
+Blender: Timer 'STL Import' took 6.90 ms
+2025-09-12 21:37:20,715 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:26.45M (Peak 26.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 37384
 Blender: Fra:1 Mem:26.45M (Peak 26.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 37384
-2025-09-12 21:02:50,972 - blender_mcp_integration - INFO - Blender输出: 帧:1 内存:27.95M (峰值 27.95M) | 时间:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
-Blender: 帧:1 内存:27.95M (峰值 27.95M) | 时间:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing        
-2025-09-12 21:02:50,973 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.78M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+2025-09-12 21:37:20,716 - blender_mcp_integration - INFO - Blender输出: 帧:1 内存:27.95M (峰值 27.95M) | 时间:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Blender: 帧:1 内存:27.95M (峰值 27.95M) | 时间:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+2025-09-12 21:37:20,716 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.78M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
 Blender: Fra:1 Mem:27.78M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
-2025-09-12 21:02:50,973 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+2025-09-12 21:37:20,717 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
 Blender: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
-2025-09-12 21:02:50,973 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
-Blender: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene      
-2025-09-12 21:02:50,974 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
-Blender: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders    
-2025-09-12 21:02:50,974 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
-Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals2025-09-12 21:02:50,975 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
-Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background 
-2025-09-12 21:02:50,975 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
-Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera     
-2025-09-12 21:02:50,975 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
+2025-09-12 21:37:20,717 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Blender: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+2025-09-12 21:37:20,717 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Blender: Fra:1 Mem:27.79M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+2025-09-12 21:37:20,718 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+2025-09-12 21:37:20,719 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+2025-09-12 21:37:20,719 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+2025-09-12 21:37:20,719 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
 Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
-2025-09-12 21:02:50,977 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+2025-09-12 21:37:20,720 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
 Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
-2025-09-12 21:02:51,024 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+2025-09-12 21:37:20,722 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
 Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
-2025-09-12 21:02:51,063 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+2025-09-12 21:37:20,757 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
 Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
-2025-09-12 21:02:51,071 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
+2025-09-12 21:37:20,793 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
 Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
-2025-09-12 21:02:51,071 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+2025-09-12 21:37:20,824 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
 Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
-2025-09-12 21:02:51,081 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
-Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes     
-2025-09-12 21:02:51,082 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.14M (Peak 28.14M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+2025-09-12 21:37:20,827 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
+Blender: Fra:1 Mem:27.87M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
+2025-09-12 21:37:20,859 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.14M (Peak 28.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes        
 Blender: Fra:1 Mem:28.14M (Peak 28.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
-2025-09-12 21:02:51,083 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
-Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
-2025-09-12 21:02:51,083 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
+2025-09-12 21:37:20,881 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to deviceBlender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+2025-09-12 21:37:20,881 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
-2025-09-12 21:02:51,084 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+2025-09-12 21:37:20,882 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
-2025-09-12 21:02:51,084 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+2025-09-12 21:37:20,882 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%        
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
-2025-09-12 21:02:51,084 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+2025-09-12 21:37:20,883 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device  
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
-2025-09-12 21:02:51,084 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Computing normals
+2025-09-12 21:37:20,883 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Computing normals
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Computing normals
-2025-09-12 21:02:51,085 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | 
-Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+2025-09-12 21:37:20,884 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device      
 Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
-2025-09-12 21:02:51,085 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Objects Flags
+2025-09-12 21:37:20,884 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Objects Flags
 Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Objects Flags
-2025-09-12 21:02:51,085 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Primitive Offsets
+2025-09-12 21:37:20,884 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Primitive Offsets
 Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Primitive Offsets
-2025-09-12 21:02:51,086 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images
-Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images     
-2025-09-12 21:02:51,086 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Camera Volume
+2025-09-12 21:37:20,885 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images
+Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images
+2025-09-12 21:37:20,885 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Camera Volume
 Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Camera Volume
-2025-09-12 21:02:51,087 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Lookup Tables
+2025-09-12 21:37:20,886 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Lookup Tables
 Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Lookup Tables
-2025-09-12 21:02:51,087 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | 
-Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Lights
-Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Lights     
-2025-09-12 21:02:51,088 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | 
-Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Lights | Computing tree
+2025-09-12 21:37:20,886 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Lights
+Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Lights
+2025-09-12 21:37:20,886 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Lights | Computing tree
 Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Lights | Computing tree
-2025-09-12 21:02:51,088 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | 
-Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Integrator
-Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Integrator 
-2025-09-12 21:02:51,089 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | 
-Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Film
-Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Film       
-2025-09-12 21:02:51,089 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.97M | Scene, ViewLayer | Updating Lookup Tables
+2025-09-12 21:37:20,887 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Integrator
+Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Integrator
+2025-09-12 21:37:20,887 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Film
+Blender: Fra:1 Mem:28.84M (Peak 28.84M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Film
+2025-09-12 21:37:20,887 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.97M | Scene, ViewLayer | Updating Lookup Tables
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.97M | Scene, ViewLayer | Updating Lookup Tables
-2025-09-12 21:02:51,089 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Baking
-Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Baking     
-2025-09-12 21:02:51,090 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Device | Writing constant memory
+2025-09-12 21:37:20,888 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Baking
+Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Baking
+2025-09-12 21:37:20,888 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Device | Writing constant memory   
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Updating Device | Writing constant memory
-2025-09-12 21:02:51,090 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+2025-09-12 21:37:20,888 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
-2025-09-12 21:02:51,091 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Sample 0/4096
-Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Sample 0/4096       
-2025-09-12 21:02:51,091 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:30.39M (Peak 30.39M) | Time:00:00.00 | 
-Remaining:00:07.38 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Sample 1/4096
-Blender: Fra:1 Mem:30.39M (Peak 30.39M) | Time:00:00.00 | Remaining:00:07.38 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Sample 1/4096
-2025-09-12 21:02:51,234 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:30.39M (Peak 30.39M) | Time:00:00.26 | 
-Remaining:00:12.97 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Sample 80/4096
-Blender: Fra:1 Mem:30.39M (Peak 30.39M) | Time:00:00.26 | Remaining:00:12.97 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Sample 80/4096
-2025-09-12 21:02:51,370 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:31.00M (Peak 31.61M) | Time:00:00.40 | 
-Remaining:00:19.80 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Sample 0/4096
-Blender: Fra:1 Mem:31.00M (Peak 31.61M) | Time:00:00.40 | Remaining:00:19.80 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Sample 0/4096
-2025-09-12 21:02:51,371 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:31.00M (Peak 31.61M) | Time:00:00.40 | 
-Remaining:00:19.80 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Finished
-Blender: Fra:1 Mem:31.00M (Peak 31.61M) | Time:00:00.40 | Remaining:00:19.80 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Finished
-2025-09-12 21:02:51,466 - blender_mcp_integration - INFO - Blender输出: Saved: 'D:\深度学习资料\实验记录\blender\output\37384_ambient.png'
+2025-09-12 21:37:20,889 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Sample 0/4096
+Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.97M, Peak:1.97M | Scene, ViewLayer | Sample 0/4096
+2025-09-12 21:37:20,889 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:31.84M (Peak 31.84M) | Time:00:00.00 | Remaining:00:10.80 | Mem:4.87M, Peak:4.87M | Scene, ViewLayer | Sample 1/4096
+Blender: Fra:1 Mem:31.84M (Peak 31.84M) | Time:00:00.00 | Remaining:00:10.80 | Mem:4.87M, Peak:4.87M | Scene, ViewLayer | Sample 1/4096
+2025-09-12 21:37:21,109 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:31.84M (Peak 31.84M) | Time:00:00.39 | Remaining:00:19.59 | Mem:4.87M, Peak:4.87M | Scene, ViewLayer | Sample 80/4096
+Blender: Fra:1 Mem:31.84M (Peak 31.84M) | Time:00:00.39 | Remaining:00:19.59 | Mem:4.87M, Peak:4.87M | Scene, ViewLayer | Sample 80/4096
+2025-09-12 21:37:21,393 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:33.06M (Peak 34.28M) | Time:00:00.67 | Remaining:00:33.75 | Mem:4.87M, Peak:4.87M | Scene, ViewLayer | Sample 0/4096
+Blender: Fra:1 Mem:33.06M (Peak 34.28M) | Time:00:00.67 | Remaining:00:33.75 | Mem:4.87M, Peak:4.87M | Scene, ViewLayer | Sample 0/4096
+2025-09-12 21:37:21,394 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:33.06M (Peak 34.28M) | Time:00:00.67 | Remaining:00:33.76 | Mem:4.87M, Peak:4.87M | Scene, ViewLayer | Finished
+Blender: Fra:1 Mem:33.06M (Peak 34.28M) | Time:00:00.67 | Remaining:00:33.76 | Mem:4.87M, Peak:4.87M | Scene, ViewLayer | Finished
+2025-09-12 21:37:21,489 - blender_mcp_integration - INFO - Blender输出: Saved: 'D:\深度学习资料\实验记录
+\blender\output\37384_ambient.png'
 Blender: Saved: 'D:\深度学习资料\实验记录\blender\output\37384_ambient.png'
-2025-09-12 21:02:51,467 - blender_mcp_integration - INFO - Blender输出: Time: 00:00.49 (Saving: 00:00.09)
-Blender: Time: 00:00.49 (Saving: 00:00.09)
-2025-09-12 21:02:51,467 - blender_mcp_integration - INFO - Blender输出:
+2025-09-12 21:37:21,489 - blender_mcp_integration - INFO - Blender输出: Time: 00:00.77 (Saving: 00:00.09)
+Blender: Time: 00:00.77 (Saving: 00:00.09)
+2025-09-12 21:37:21,490 - blender_mcp_integration - INFO - Blender输出:
 Blender:
-2025-09-12 21:02:51,467 - blender_mcp_integration - INFO - Blender输出: - 环境光渲染完成。
+2025-09-12 21:37:21,490 - blender_mcp_integration - INFO - Blender输出: - 环境光渲染完成。
 Blender: - 环境光渲染完成。
-2025-09-12 21:02:51,468 - blender_mcp_integration - INFO - Blender输出: -- 开始处理旋转角度: 0.0 度 --
+2025-09-12 21:37:21,490 - blender_mcp_integration - INFO - Blender输出: -- 开始处理旋转角度: 0.0 度 --  
 Blender: -- 开始处理旋转角度: 0.0 度 --
-2025-09-12 21:02:51,468 - blender_mcp_integration - INFO - Blender输出: - 物体Z轴旋转设置为 0.0 度
+2025-09-12 21:37:21,490 - blender_mcp_integration - INFO - Blender输出: - 物体Z轴旋转设置为 0.0 度      
 Blender: - 物体Z轴旋转设置为 0.0 度
-2025-09-12 21:02:51,468 - blender_mcp_integration - INFO - Blender输出: 开始渲染投影，角度: 0.0
+2025-09-12 21:37:21,490 - blender_mcp_integration - INFO - Blender输出: 开始渲染投影，角度: 0.0
 Blender: 开始渲染投影，角度: 0.0
-2025-09-12 21:02:51,468 - blender_mcp_integration - INFO - Blender输出: - 应用图案: cosine_vertical_1024x1024_p20.png    
+2025-09-12 21:37:21,491 - blender_mcp_integration - INFO - Blender输出: - 应用图案: cosine_vertical_1024x1024_p20.png
 Blender: - 应用图案: cosine_vertical_1024x1024_p20.png
-2025-09-12 21:02:51,469 - blender_mcp_integration - INFO - Blender输出: - 正在渲染到: D:\深度学习资料\实验记录\blender\output\37384_000_000001_pattern.png
+2025-09-12 21:37:21,491 - blender_mcp_integration - INFO - Blender输出: - 正在渲染到: D:\深度学习资料\实
+验记录\blender\output\37384_000_000001_pattern.png
 Blender: - 正在渲染到: D:\深度学习资料\实验记录\blender\output\37384_000_000001_pattern.png
-2025-09-12 21:02:51,469 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.31M (Peak 27.31M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 37384
+2025-09-12 21:37:21,491 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.31M (Peak 27.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 37384
 Blender: Fra:1 Mem:27.31M (Peak 27.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 37384
-2025-09-12 21:02:51,469 - blender_mcp_integration - INFO - Blender输出: 帧:1 内存:28.00M (峰值 28.00M) | 时间:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
-Blender: 帧:1 内存:28.00M (峰值 28.00M) | 时间:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing        
-2025-09-12 21:02:51,470 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+2025-09-12 21:37:21,492 - blender_mcp_integration - INFO - Blender输出: 帧:1 内存:28.00M (峰值 28.00M) | 时间:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Blender: 帧:1 内存:28.00M (峰值 28.00M) | 时间:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+2025-09-12 21:37:21,492 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
 Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
-2025-09-12 21:02:51,470 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+2025-09-12 21:37:21,492 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
 Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
-2025-09-12 21:02:51,470 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
-Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene      
-2025-09-12 21:02:51,470 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
-Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders    
-2025-09-12 21:02:51,471 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
-Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals2025-09-12 21:02:51,471 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
-Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background 
-2025-09-12 21:02:51,472 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
-Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera     
-2025-09-12 21:02:51,472 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
+2025-09-12 21:37:21,493 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+2025-09-12 21:37:21,493 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+2025-09-12 21:37:21,493 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+2025-09-12 21:37:21,494 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+2025-09-12 21:37:21,494 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+2025-09-12 21:37:21,495 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
 Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
-2025-09-12 21:02:51,472 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
-Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects    
-2025-09-12 21:02:51,473 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+2025-09-12 21:37:21,495 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+2025-09-12 21:37:21,495 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
 Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
-2025-09-12 21:02:51,473 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+2025-09-12 21:37:21,496 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
 Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
-2025-09-12 21:02:51,474 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
+2025-09-12 21:37:21,496 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
 Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
-2025-09-12 21:02:51,474 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+2025-09-12 21:37:21,497 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
 Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
-2025-09-12 21:02:51,475 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
-Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes     
-2025-09-12 21:02:51,475 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.14M (Peak 28.14M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+2025-09-12 21:37:21,497 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
+Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
+2025-09-12 21:37:21,498 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.14M (Peak 28.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes        
 Blender: Fra:1 Mem:28.14M (Peak 28.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
-2025-09-12 21:02:51,475 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
-Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
-2025-09-12 21:02:51,476 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
+2025-09-12 21:37:21,498 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to deviceBlender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+2025-09-12 21:37:21,498 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
-2025-09-12 21:02:51,478 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+2025-09-12 21:37:21,499 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
-2025-09-12 21:02:51,508 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+2025-09-12 21:37:21,499 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%        
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
-2025-09-12 21:02:51,512 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+2025-09-12 21:37:21,499 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device  
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
-2025-09-12 21:02:51,544 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Computing normals
+2025-09-12 21:37:21,500 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Computing normals
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Computing normals
-2025-09-12 21:02:51,548 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+2025-09-12 21:37:21,500 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device      
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
-2025-09-12 21:02:51,570 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Objects Flags
+2025-09-12 21:37:21,502 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Objects Flags
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Objects Flags
-2025-09-12 21:02:51,571 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Primitive Offsets
+2025-09-12 21:37:21,536 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Primitive Offsets
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Primitive Offsets
-2025-09-12 21:02:51,571 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images
-Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images     
-2025-09-12 21:02:51,572 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images | Loading cosine_vertical_1024x1024_p20.png
+2025-09-12 21:37:21,568 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images
+Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images
+2025-09-12 21:37:21,600 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images | Loading cosine_vertical_1024x1024_p20.png
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images | Loading cosine_vertical_1024x1024_p20.png
-2025-09-12 21:02:51,572 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Camera Volume
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Camera Volume
-2025-09-12 21:02:51,573 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Lookup Tables
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Lookup Tables
-2025-09-12 21:02:51,573 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights     
-2025-09-12 21:02:51,573 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights | Computing tree
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights | Computing tree
-2025-09-12 21:02:51,574 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Integrator
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Integrator 
-2025-09-12 21:02:51,574 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Film
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Film       
-2025-09-12 21:02:51,574 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.89M, Peak:2.97M | Scene, ViewLayer | Updating Lookup Tables
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.89M, Peak:2.97M | Scene, ViewLayer | Updating Lookup Tables
-2025-09-12 21:02:51,575 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Baking
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Baking     
-2025-09-12 21:02:51,575 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Device | Writing constant memory
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Device | Writing constant memory
-2025-09-12 21:02:51,575 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
-2025-09-12 21:02:51,576 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Sample 0/4096
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Sample 0/4096       
-2025-09-12 21:02:51,576 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:31.40M (Peak 31.40M) | Time:00:00.01 | 
-Remaining:00:08.35 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 1/4096
-Blender: Fra:1 Mem:31.40M (Peak 31.40M) | Time:00:00.01 | Remaining:00:08.35 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 1/4096
-2025-09-12 21:02:51,707 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:31.40M (Peak 31.40M) | Time:00:00.23 | 
-Remaining:00:11.56 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 80/4096
-Blender: Fra:1 Mem:31.40M (Peak 31.40M) | Time:00:00.23 | Remaining:00:11.56 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 80/4096
-2025-09-12 21:02:51,873 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:32.02M (Peak 32.63M) | Time:00:00.40 | 
-Remaining:00:19.89 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 0/4096
-Blender: Fra:1 Mem:32.02M (Peak 32.63M) | Time:00:00.40 | Remaining:00:19.89 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 0/4096
-2025-09-12 21:02:51,873 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:32.02M (Peak 32.63M) | Time:00:00.40 | 
-Remaining:00:19.89 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Finished
-Blender: Fra:1 Mem:32.02M (Peak 32.63M) | Time:00:00.40 | Remaining:00:19.89 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Finished
-2025-09-12 21:02:51,876 - blender_mcp_integration - INFO - Blender输出: Saved: 'D:\深度学习资料\实验记录\blender\output\37384_000_000001_pattern.png'
+2025-09-12 21:37:21,608 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Camera Volume
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Camera Volume
+2025-09-12 21:37:21,633 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Lookup Tables
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Lookup Tables
+2025-09-12 21:37:21,671 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights
+2025-09-12 21:37:21,673 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights | Computing tree
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights | Computing tree
+2025-09-12 21:37:21,673 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Integrator
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Integrator
+2025-09-12 21:37:21,674 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Film
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Film
+2025-09-12 21:37:21,674 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.89M, Peak:2.97M | Scene, ViewLayer | Updating Lookup Tables
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.89M, Peak:2.97M | Scene, ViewLayer | Updating Lookup Tables
+2025-09-12 21:37:21,675 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Baking
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Baking
+2025-09-12 21:37:21,675 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Device | Writing constant memory   
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Device | Writing constant memory
+2025-09-12 21:37:21,677 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+2025-09-12 21:37:21,678 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Sample 0/4096
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Sample 0/4096
+2025-09-12 21:37:21,679 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.01 | Remaining:00:08.20 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 1/4096
+Blender: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.01 | Remaining:00:08.20 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 1/4096
+2025-09-12 21:37:22,006 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.51 | Remaining:00:25.41 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 80/4096
+Blender: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.51 | Remaining:00:25.41 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 80/4096
+2025-09-12 21:37:22,230 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.74 | Remaining:00:36.63 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 0/4096
+Blender: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.74 | Remaining:00:36.63 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 0/4096
+2025-09-12 21:37:22,231 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.74 | Remaining:00:36.63 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Finished
+Blender: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.74 | Remaining:00:36.63 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Finished
+2025-09-12 21:37:22,235 - blender_mcp_integration - INFO - Blender输出: Saved: 'D:\深度学习资料\实验记录
+\blender\output\37384_000_000001_pattern.png'
 Blender: Saved: 'D:\深度学习资料\实验记录\blender\output\37384_000_000001_pattern.png'
-2025-09-12 21:02:51,876 - blender_mcp_integration - INFO - Blender输出: Time: 00:00.40 (Saving: 00:00.00)
-Blender: Time: 00:00.40 (Saving: 00:00.00)
-2025-09-12 21:02:51,877 - blender_mcp_integration - INFO - Blender输出:
+2025-09-12 21:37:22,235 - blender_mcp_integration - INFO - Blender输出: Time: 00:00.74 (Saving: 00:00.00)
+Blender: Time: 00:00.74 (Saving: 00:00.00)
+2025-09-12 21:37:22,236 - blender_mcp_integration - INFO - Blender输出:
 Blender:
-2025-09-12 21:02:51,877 - blender_mcp_integration - INFO - Blender输出: - 渲染完成。
+2025-09-12 21:37:22,237 - blender_mcp_integration - INFO - Blender输出: - 渲染完成。
 Blender: - 渲染完成。
-2025-09-12 21:02:51,877 - blender_mcp_integration - INFO - Blender输出: 投影渲染完成。
+2025-09-12 21:37:22,237 - blender_mcp_integration - INFO - Blender输出: 投影渲染完成。
 Blender: 投影渲染完成。
-2025-09-12 21:02:51,877 - blender_mcp_integration - INFO - Blender输出: -- 开始处理旋转角度: 45.0 度 --
+2025-09-12 21:37:22,238 - blender_mcp_integration - INFO - Blender输出: -- 开始处理旋转角度: 45.0 度 -- 
 Blender: -- 开始处理旋转角度: 45.0 度 --
-2025-09-12 21:02:51,878 - blender_mcp_integration - INFO - Blender输出: - 物体Z轴旋转设置为 45.0 度
+2025-09-12 21:37:22,238 - blender_mcp_integration - INFO - Blender输出: - 物体Z轴旋转设置为 45.0 度     
 Blender: - 物体Z轴旋转设置为 45.0 度
-2025-09-12 21:02:51,878 - blender_mcp_integration - INFO - Blender输出: 开始渲染投影，角度: 45.0
+2025-09-12 21:37:22,238 - blender_mcp_integration - INFO - Blender输出: 开始渲染投影，角度: 45.0        
 Blender: 开始渲染投影，角度: 45.0
-2025-09-12 21:02:51,878 - blender_mcp_integration - INFO - Blender输出: - 应用图案: cosine_vertical_1024x1024_p20.png    
+2025-09-12 21:37:22,238 - blender_mcp_integration - INFO - Blender输出: - 应用图案: cosine_vertical_1024x1024_p20.png
 Blender: - 应用图案: cosine_vertical_1024x1024_p20.png
-2025-09-12 21:02:51,878 - blender_mcp_integration - INFO - Blender输出: - 正在渲染到: D:\深度学习资料\实验记录\blender\output\37384_045_000001_pattern.png
+2025-09-12 21:37:22,239 - blender_mcp_integration - INFO - Blender输出: - 正在渲染到: D:\深度学习资料\实
+验记录\blender\output\37384_045_000001_pattern.png
 Blender: - 正在渲染到: D:\深度学习资料\实验记录\blender\output\37384_045_000001_pattern.png
-2025-09-12 21:02:51,879 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.31M (Peak 27.31M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 37384
+2025-09-12 21:37:22,239 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.31M (Peak 27.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 37384
 Blender: Fra:1 Mem:27.31M (Peak 27.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 37384
-2025-09-12 21:02:51,879 - blender_mcp_integration - INFO - Blender输出: 帧:1 内存:28.00M (峰值 28.00M) | 时间:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
-Blender: 帧:1 内存:28.00M (峰值 28.00M) | 时间:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing        
-2025-09-12 21:02:51,879 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+2025-09-12 21:37:22,239 - blender_mcp_integration - INFO - Blender输出: 帧:1 内存:28.00M (峰值 28.00M) | 时间:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Blender: 帧:1 内存:28.00M (峰值 28.00M) | 时间:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+2025-09-12 21:37:22,240 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
 Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
-2025-09-12 21:02:51,880 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+2025-09-12 21:37:22,240 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
 Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
-2025-09-12 21:02:51,880 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
-Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene      
-2025-09-12 21:02:51,881 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
-Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders    
-2025-09-12 21:02:51,881 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
-Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals2025-09-12 21:02:51,882 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
-Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background 
-2025-09-12 21:02:51,882 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
-Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera     
-2025-09-12 21:02:51,882 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
+2025-09-12 21:37:22,241 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+2025-09-12 21:37:22,241 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Blender: Fra:1 Mem:27.79M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+2025-09-12 21:37:22,242 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+2025-09-12 21:37:22,242 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+2025-09-12 21:37:22,243 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+2025-09-12 21:37:22,243 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
 Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
-2025-09-12 21:02:51,883 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
-Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects    
-2025-09-12 21:02:51,883 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+2025-09-12 21:37:22,244 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+2025-09-12 21:37:22,245 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
 Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
-2025-09-12 21:02:51,883 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+2025-09-12 21:37:22,245 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
 Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
-2025-09-12 21:02:51,884 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
+2025-09-12 21:37:22,246 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
 Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
-2025-09-12 21:02:51,884 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+2025-09-12 21:37:22,273 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
 Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
-2025-09-12 21:02:51,884 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
-Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes     
-2025-09-12 21:02:51,886 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.14M (Peak 28.14M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+2025-09-12 21:37:22,280 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
+Blender: Fra:1 Mem:27.87M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
+2025-09-12 21:37:22,306 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.14M (Peak 28.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes        
 Blender: Fra:1 Mem:28.14M (Peak 28.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
-2025-09-12 21:02:51,920 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
-Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
-2025-09-12 21:02:51,952 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
+2025-09-12 21:37:22,314 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to deviceBlender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+2025-09-12 21:37:22,343 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
-2025-09-12 21:02:51,957 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+2025-09-12 21:37:22,348 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
-2025-09-12 21:02:51,985 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+2025-09-12 21:37:22,377 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%        
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
-2025-09-12 21:02:51,985 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+2025-09-12 21:37:22,385 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device  
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
-2025-09-12 21:02:51,986 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | 
-Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Computing normals
+2025-09-12 21:37:22,413 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Computing normals
 Blender: Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Computing normals
-2025-09-12 21:02:51,986 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+2025-09-12 21:37:22,417 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device      
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.28M, Peak:1.82M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
-2025-09-12 21:02:51,986 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Objects Flags
+2025-09-12 21:37:22,419 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Objects Flags
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Objects Flags
-2025-09-12 21:02:51,987 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Primitive Offsets
+2025-09-12 21:37:22,420 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Primitive Offsets
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Primitive Offsets
-2025-09-12 21:02:51,987 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images
-Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images     
-2025-09-12 21:02:51,987 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | 
-Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images | Loading cosine_vertical_1024x1024_p20.png
+2025-09-12 21:37:22,420 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images
+Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images
+2025-09-12 21:37:22,420 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images | Loading cosine_vertical_1024x1024_p20.png
 Blender: Fra:1 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:1.89M, Peak:1.89M | Scene, ViewLayer | Updating Images | Loading cosine_vertical_1024x1024_p20.png
-2025-09-12 21:02:51,987 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Camera Volume
+2025-09-12 21:37:22,421 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Camera Volume
 Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Camera Volume
-2025-09-12 21:02:51,988 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Lookup Tables
+2025-09-12 21:37:22,421 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Lookup Tables
 Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Lookup Tables
-2025-09-12 21:02:51,988 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights     
-2025-09-12 21:02:51,988 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights | Computing tree
+2025-09-12 21:37:22,421 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights
+2025-09-12 21:37:22,422 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights | Computing tree
 Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights | Computing tree
-2025-09-12 21:02:51,988 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Integrator
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Integrator 
-2025-09-12 21:02:51,989 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Film
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Film       
-2025-09-12 21:02:51,989 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.89M, Peak:2.97M | Scene, ViewLayer | Updating Lookup Tables
+2025-09-12 21:37:22,422 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Integrator
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Integrator
+2025-09-12 21:37:22,422 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Film
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Film
+2025-09-12 21:37:22,423 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.89M, Peak:2.97M | Scene, ViewLayer | Updating Lookup Tables
 Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.89M, Peak:2.97M | Scene, ViewLayer | Updating Lookup Tables
-2025-09-12 21:02:51,989 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Baking
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Baking     
-2025-09-12 21:02:51,989 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Device | Writing constant memory
+2025-09-12 21:37:22,423 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Baking
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Baking
+2025-09-12 21:37:22,423 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Device | Writing constant memory   
 Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Device | Writing constant memory
-2025-09-12 21:02:51,990 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+2025-09-12 21:37:22,424 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
 Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
-2025-09-12 21:02:51,990 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | 
-Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Sample 0/4096
-Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Sample 0/4096       
-2025-09-12 21:02:51,990 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:31.40M (Peak 31.40M) | Time:00:00.00 | 
-Remaining:00:05.39 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 1/4096
-Blender: Fra:1 Mem:31.40M (Peak 31.40M) | Time:00:00.00 | Remaining:00:05.39 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 1/4096
-2025-09-12 21:02:52,142 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:31.40M (Peak 31.40M) | Time:00:00.26 | 
-Remaining:00:12.90 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 80/4096
-Blender: Fra:1 Mem:31.40M (Peak 31.40M) | Time:00:00.26 | Remaining:00:12.90 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 80/4096
-2025-09-12 21:02:52,287 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:32.02M (Peak 32.63M) | Time:00:00.40 | 
-Remaining:00:20.19 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 0/4096
-Blender: Fra:1 Mem:32.02M (Peak 32.63M) | Time:00:00.40 | Remaining:00:20.19 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Sample 0/4096
-2025-09-12 21:02:52,287 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:32.02M (Peak 32.63M) | Time:00:00.40 | 
-Remaining:00:20.19 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Finished
-Blender: Fra:1 Mem:32.02M (Peak 32.63M) | Time:00:00.40 | Remaining:00:20.19 | Mem:4.44M, Peak:4.44M | Scene, ViewLayer | Finished
-2025-09-12 21:02:52,290 - blender_mcp_integration - INFO - Blender输出: Saved: 'D:\深度学习资料\实验记录\blender\output\37384_045_000001_pattern.png'
+2025-09-12 21:37:22,424 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Sample 0/4096
+Blender: Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.00 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Sample 0/4096
+2025-09-12 21:37:22,425 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.01 | Remaining:00:08.01 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 1/4096
+Blender: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.01 | Remaining:00:08.01 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 1/4096
+2025-09-12 21:37:22,633 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.39 | Remaining:00:19.47 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 80/4096
+Blender: Fra:1 Mem:32.85M (Peak 32.85M) | Time:00:00.39 | Remaining:00:19.47 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 80/4096
+2025-09-12 21:37:22,841 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.60 | Remaining:00:29.89 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 0/4096
+Blender: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.60 | Remaining:00:29.89 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Sample 0/4096
+2025-09-12 21:37:22,841 - blender_mcp_integration - INFO - Blender输出: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.60 | Remaining:00:29.89 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Finished
+Blender: Fra:1 Mem:34.08M (Peak 35.30M) | Time:00:00.60 | Remaining:00:29.89 | Mem:5.88M, Peak:5.88M | Scene, ViewLayer | Finished
+2025-09-12 21:37:22,845 - blender_mcp_integration - INFO - Blender输出: Saved: 'D:\深度学习资料\实验记录
+\blender\output\37384_045_000001_pattern.png'
 Blender: Saved: 'D:\深度学习资料\实验记录\blender\output\37384_045_000001_pattern.png'
-2025-09-12 21:02:52,291 - blender_mcp_integration - INFO - Blender输出: Time: 00:00.41 (Saving: 00:00.00)
-Blender: Time: 00:00.41 (Saving: 00:00.00)
-2025-09-12 21:02:52,291 - blender_mcp_integration - INFO - Blender输出:
+2025-09-12 21:37:22,846 - blender_mcp_integration - INFO - Blender输出: Time: 00:00.60 (Saving: 00:00.00)
+Blender: Time: 00:00.60 (Saving: 00:00.00)
+2025-09-12 21:37:22,846 - blender_mcp_integration - INFO - Blender输出:
 Blender:
-2025-09-12 21:02:52,291 - blender_mcp_integration - INFO - Blender输出: - 渲染完成。
+2025-09-12 21:37:22,846 - blender_mcp_integration - INFO - Blender输出: - 渲染完成。
 Blender: - 渲染完成。
-2025-09-12 21:02:52,291 - blender_mcp_integration - INFO - Blender输出: 投影渲染完成。
+2025-09-12 21:37:22,846 - blender_mcp_integration - INFO - Blender输出: 投影渲染完成。
 Blender: 投影渲染完成。
-2025-09-12 21:02:52,292 - blender_mcp_integration - INFO - Blender输出: 脚本执行过程中发生严重错误: StructRNA of type Object has been removed
+2025-09-12 21:37:22,847 - blender_mcp_integration - INFO - Blender输出: 脚本执行过程中发生严重错误: StructRNA of type Object has been removed
 Blender: 脚本执行过程中发生严重错误: StructRNA of type Object has been removed
-2025-09-12 21:02:52,292 - blender_mcp_integration - INFO - Blender输出: Traceback (most recent call last):
+2025-09-12 21:37:22,847 - blender_mcp_integration - INFO - Blender输出: Traceback (most recent call last):
 Blender: Traceback (most recent call last):
-2025-09-12 21:02:52,292 - blender_mcp_integration - INFO - Blender输出: File "D:\blender-tool\深度图数据集_v6.py", line 373, in main_script_logic
-Blender: File "D:\blender-tool\深度图数据集_v6.py", line 373, in main_script_logic
-2025-09-12 21:02:52,293 - blender_mcp_integration - INFO - Blender输出: bpy.data.meshes.remove(obj.data)
-Blender: bpy.data.meshes.remove(obj.data)
-2025-09-12 21:02:52,293 - blender_mcp_integration - INFO - Blender输出: ^^^^^^^^
-Blender: ^^^^^^^^
-2025-09-12 21:02:52,293 - blender_mcp_integration - INFO - Blender输出: ReferenceError: StructRNA of type Object has been removed
+2025-09-12 21:37:22,847 - blender_mcp_integration - INFO - Blender输出: File "D:\blender-tool\深度图数据
+集_v6.py", line 375, in main_script_logic
+Blender: File "D:\blender-tool\深度图数据集_v6.py", line 375, in main_script_logic
+2025-09-12 21:37:22,848 - blender_mcp_integration - INFO - Blender输出: bpy.data.objects.remove(obj)    
+Blender: bpy.data.objects.remove(obj)
+2025-09-12 21:37:22,848 - blender_mcp_integration - INFO - Blender输出: ReferenceError: StructRNA of type Object has been removed
 Blender: ReferenceError: StructRNA of type Object has been removed
-2025-09-12 21:02:52,293 - blender_mcp_integration - INFO - Blender输出:
+2025-09-12 21:37:22,848 - blender_mcp_integration - INFO - Blender输出:
 Blender:
-2025-09-12 21:02:52,307 - blender_mcp_integration - INFO - Blender输出: BlenderMCP addon unregistered
+2025-09-12 21:37:22,865 - blender_mcp_integration - INFO - Blender输出: BlenderMCP addon unregistered
 Blender: BlenderMCP addon unregistered
-2025-09-12 21:02:52,426 - blender_mcp_integration - INFO - Blender输出: 
+2025-09-12 21:37:22,981 - blender_mcp_integration - INFO - Blender输出: 
 Blender: 
-2025-09-12 21:02:52,426 - blender_mcp_integration - INFO - Blender输出: Blender quit
+2025-09-12 21:37:22,981 - blender_mcp_integration - INFO - Blender输出: Blender quit
 Blender: Blender quit
-2025-09-12 21:02:52,449 - blender_mcp_integration - INFO - Blender进程返回码: 0
-2025-09-12 21:02:52,450 - blender_mcp_integration - INFO - Blender执行完成，发现 0 个输出文件
-2025-09-12 21:02:52,450 - blender_mcp_integration - INFO - 参数文件:
-2025-09-12 21:02:52,450 - __main__ - INFO - 进度更新: 95.0% - 正在完成...
-2025-09-12 21:02:52,451 - blender_mcp_integration - INFO - 临时脚本文件已清理
-2025-09-12 21:02:52,451 - blender_mcp_integration - INFO - Blender执行结果: {'output_files': [], 'parameters_file': ''}  
-2025-09-12 21:02:52,452 - blender_mcp_integration - INFO - 临时配置文件已清理
-2025-09-12 21:02:52,452 - __main__ - INFO - MCP集成返回结果: success=True, message=数据集生成完成
-2025-09-12 21:02:52,452 - __main__ - INFO - 数据集生成成功，更新UI状态
-2025-09-12 21:02:52,452 - __main__ - INFO - 后台生成线程结束
-2025-09-12 21:02:52,452 - __main__ - INFO - === 数据集生成完成 ===
-2025-09-12 21:02:52,452 - __main__ - INFO - 生成完成 - 输出文件: 0 个
-2025-09-12 21:02:52,452 - __main__ - INFO - 参数文件:
+2025-09-12 21:37:23,004 - blender_mcp_integration - INFO - Blender进程返回码: 0
+2025-09-12 21:37:23,005 - blender_mcp_integration - INFO - Blender执行完成，发现 0 个输出文件
+2025-09-12 21:37:23,005 - blender_mcp_integration - INFO - 参数文件:
+2025-09-12 21:37:23,005 - __main__ - INFO - 进度更新: 95.0% - 正在完成...
+2025-09-12 21:37:23,006 - blender_mcp_integration - INFO - 临时脚本文件已清理
+2025-09-12 21:37:23,007 - blender_mcp_integration - INFO - Blender执行结果: {'output_files': [], 'parameters_file': ''}
+2025-09-12 21:37:23,007 - blender_mcp_integration - INFO - 临时配置文件已清理
+2025-09-12 21:37:23,007 - __main__ - INFO - MCP集成返回结果: success=True, message=数据集生成完成       
+2025-09-12 21:37:23,007 - __main__ - INFO - 数据集生成成功，更新UI状态
+2025-09-12 21:37:23,008 - __main__ - INFO - 后台生成线程结束
+2025-09-12 21:37:23,008 - __main__ - INFO - === 数据集生成完成 ===
+2025-09-12 21:37:23,015 - __main__ - INFO - 生成完成 - 输出文件: 0 个
+2025-09-12 21:37:23,015 - __main__ - INFO - 参数文件:
