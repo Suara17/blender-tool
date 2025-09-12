@@ -38,34 +38,55 @@ def cleanup_scene():
     print("场景清理完毕。", flush=True)
 
 
-def setup_camera():
-    """设置相机位置和朝向"""
+def setup_camera(camera_config):
+    """根据配置设置相机"""
     print("设置相机...", flush=True)
-    bpy.ops.object.camera_add(location=(0, -5, 2), rotation=(math.radians(80), 0, 0))
+    
+    position = camera_config.get('position', [0, -5, 2])
+    rotation = camera_config.get('rotation', [80, 0, 0])
+    focal_length = camera_config.get('focal_length', 50.0)
+    clip_start = camera_config.get('clip_start', 0.1)
+    clip_end = camera_config.get('clip_end', 1000)
+
+    # 角度转弧度
+    rotation_rad = [math.radians(angle) for angle in rotation]
+
+    bpy.ops.object.camera_add(location=position, rotation=rotation_rad)
     camera = bpy.context.object
     camera.name = "MyCamera"
+    camera.data.lens = focal_length
+    camera.data.clip_start = clip_start
+    camera.data.clip_end = clip_end
+    
     bpy.context.scene.camera = camera
     print("相机设置完毕。", flush=True)
     return camera
 
-def setup_projector(energy=1000):
+def setup_projector(projector_config):
+    """根据配置设置投影仪"""
     print("设置投影仪...", flush=True)
+    
+    position = projector_config.get('position', [0, 0, 5])
+    energy = projector_config.get('power', 1000)
+    fov = projector_config.get('fov', 40)
+
     # 检查是否已存在名为'Projector'的灯光
     if 'Projector' in bpy.data.objects:
         projector = bpy.data.objects['Projector']
         print("  - 找到现有投影仪。", flush=True)
     else:
-        bpy.ops.object.light_add(type='SPOT', location=(0, 0, 5))
+        bpy.ops.object.light_add(type='SPOT', location=position)
         projector = bpy.context.object
         projector.name = 'Projector'
         print("  - 创建新投影仪。", flush=True)
 
     # 基本属性
     projector.data.energy = energy
-    projector.data.spot_size = math.radians(40)
+    projector.data.spot_size = math.radians(fov)
     projector.data.shadow_soft_size = 0 # 硬阴影
     projector.data.show_cone = True
     print(f"  - 功率设置为: {energy}", flush=True)
+    print(f"  - 视场角设置为: {fov}", flush=True)
 
     # 使用节点
     projector.data.use_nodes = True
@@ -237,28 +258,25 @@ def main_script_logic(config_path):
 
         # --- 1. 从配置中读取所有参数 ---
         print("--- 开始解析配置参数 ---", flush=True)
-        stl_model_path = config.get('stl_model_path', "D:/blender-tool/test_data/stl_models")
-        pattern_path = config.get('pattern_path', "D:/blender-tool/test_data/patterns")
-        output_path = config.get('output_path', "D:/blender-tool/test_data/output")
+        paths = config.get("paths", {})
+        stl_model_path = paths.get('stl_folder', "D:/blender-tool/test_data/stl_models")
+        pattern_path = paths.get('pattern_folder', "D:/blender-tool/test_data/patterns")
+        output_path = paths.get('output_folder', "D:/blender-tool/test_data/output")
         
-        projector_energy = config.get('projector_energy', 1000)
-        # GUI传过来的可能是字符串列表，确保转换为数值
-        rotation_angles = config.get('rotation_angles', [0, 45, 90])
-        # 如果是字符串，转换为列表
-        if isinstance(rotation_angles, str):
-            rotation_angles = [int(a.strip()) for a in rotation_angles.split(',') if a.strip()]
-        # 确保是列表格式
-        if not isinstance(rotation_angles, list):
-            rotation_angles = [0, 45, 90]
+        camera_config = config.get("camera", {})
+        projector_config = config.get("projector", {})
+        render_config = config.get("render", {})
+        advanced_config = config.get("advanced", {})
 
-        render_samples = config.get('render_samples', 128)
-        resolution_x = config.get('resolution_x', 1920)
-        resolution_y = config.get('resolution_y', 1080)
+        rotation_angles = advanced_config.get('rotation_angles', [0, 45, 90])
+        render_samples = render_config.get('samples', 128)
+        resolution = render_config.get('resolution', [1920, 1080])
+        resolution_x, resolution_y = resolution
+        render_engine = render_config.get('engine', 'CYCLES')
 
         print(f"  - STL模型路径: {stl_model_path}", flush=True)
         print(f"  - 投影图案路径: {pattern_path}", flush=True)
         print(f"  - 输出路径: {output_path}", flush=True)
-        print(f"  - 投影仪功率: {projector_energy}", flush=True)
         print(f"  - 旋转角度: {rotation_angles}", flush=True)
         print(f"  - 渲染采样数: {render_samples}", flush=True)
         print(f"  - 分辨率: {resolution_x}x{resolution_y}", flush=True)
@@ -266,16 +284,13 @@ def main_script_logic(config_path):
 
         # --- 2. 设置渲染和场景 ---
         print("--- 开始设置渲染和场景 ---", flush=True)
-        # 设置渲染引擎为CYCLES
-        bpy.context.scene.render.engine = 'CYCLES'
-        bpy.context.view_layer.update() # Ensure engine change is applied
-        
-        # 检查渲染引擎是否设置成功
+        # 设置渲染引擎
+        bpy.context.scene.render.engine = render_engine
+        bpy.context.view_layer.update()
+
         if bpy.context.scene.render.engine == 'CYCLES':
             print("  - 渲染引擎成功设置为 CYCLES", flush=True)
-            # 尝试设置GPU渲染
             try:
-                # 确保cycles属性可用
                 if hasattr(bpy.context.scene.render, 'cycles'):
                     bpy.context.scene.render.cycles.device = 'GPU'
                     print("  - 渲染设备设置为 GPU", flush=True)
@@ -286,18 +301,11 @@ def main_script_logic(config_path):
                 if hasattr(bpy.context.scene.render, 'cycles'):
                     bpy.context.scene.render.cycles.device = 'CPU'
             
-            # 设置采样数
             if hasattr(bpy.context.scene.render, 'cycles'):
                 bpy.context.scene.render.cycles.samples = render_samples
         else:
-            print("  - 警告：渲染引擎未能设置为CYCLES，当前引擎：" + bpy.context.scene.render.engine, flush=True)
-            # 即使不是CYCLES引擎，也尝试设置一些通用参数
-            bpy.context.scene.render.resolution_x = resolution_x
-            bpy.context.scene.render.resolution_y = resolution_y
-            bpy.context.scene.render.image_settings.file_format = 'PNG'
-            bpy.context.scene.render.image_settings.color_depth = '8'
+            print(f"  - 警告：渲染引擎未能设置为CYCLES，当前引擎：{bpy.context.scene.render.engine}", flush=True)
             
-        # 设置通用渲染参数
         bpy.context.scene.render.resolution_x = resolution_x
         bpy.context.scene.render.resolution_y = resolution_y
         bpy.context.scene.render.image_settings.file_format = 'PNG'
@@ -307,10 +315,8 @@ def main_script_logic(config_path):
         
         cleanup_scene()
         
-        camera = setup_camera()
-
-        # 设置投影仪，并传入功率
-        projector = setup_projector(energy=projector_energy)
+        camera = setup_camera(camera_config)
+        projector = setup_projector(projector_config)
         print("--- 渲染和场景设置完成 ---", flush=True)
 
         # --- 3. 加载资产 ---
