@@ -1,3 +1,4 @@
+
 import bpy
 import json
 import os
@@ -5,22 +6,22 @@ import sys
 from pathlib import Path
 
 print("=== Blender Dataset Generation Started ===")
-print(f"Python version: {sys.version}")
-print(f"Blender version: {bpy.app.version_string}")
+print(f"Python version: {{sys.version}}")
+print(f"Blender version: {{bpy.app.version_string}}")
 
 # Load configuration
-config_path = r"C:\Users\sua\AppData\Local\Temp\tmp2sbrvjwx.json"
+config_path = r"C:\Users\sua\AppData\Local\Temp\tmpytgtxofd.json"
 try:
     with open(config_path, 'r', encoding='utf-8') as f:
         config = json.load(f)
-    print(f"Configuration loaded from: {config_path}")
+    print(f"Configuration loaded from: {{config_path}}")
 except Exception as e:
-    print(f"FATAL ERROR: Failed to load config from {config_path}: {e}")
+    print(f"FATAL ERROR: Failed to load config from {{config_path}}: {{e}}")
     sys.exit(1)
 
 # Get the directory of this script
 this_script_dir = Path(__file__).parent
-print(f"This script directory: {this_script_dir}")
+print(f"This script directory: {{this_script_dir}}")
 
 # Handle script path from config
 user_script_relative = r"D:\blender-tool\深度图数据集_v6.py"
@@ -28,7 +29,7 @@ user_script_path_obj = Path(user_script_relative)
 
 if user_script_path_obj.is_absolute():
     # Absolute path
-    script_dir_to_add = str(user_script_path_obj.parent).replace('\\', '/')
+    script_dir_to_add = user_script_path_obj.parent.as_posix()
     module_name = user_script_path_obj.stem
 else:
     # Relative path - try multiple locations
@@ -43,161 +44,44 @@ else:
     
     for possible_path in possible_paths:
         if possible_path.exists():
-            script_dir_to_add = str(possible_path.parent).replace('\\', '/')
-            print(f"Found script at: {possible_path}")
+            script_dir_to_add = possible_path.parent.as_posix()
+            print(f"Found script at: {{possible_path}}")
             break
     
     if script_dir_to_add is None:
         print(f"FATAL ERROR: Could not find script '{user_script_relative}' in any of these locations:")
         for p in possible_paths:
-            print(f"  - {p}")
+            print(f"  - {{p}}")
         sys.exit(1)
 
-print(f"Script directory to add: {script_dir_to_add}")
-print(f"Module name: {module_name}")
+print(f"Script directory to add: {{script_dir_to_add}}")
+print(f"Module name: {{module_name}}")
 
 # Add script directory to Python path
 if script_dir_to_add not in sys.path:
     sys.path.insert(0, script_dir_to_add)
-print(f"Updated sys.path: {sys.path}")
+print(f"Updated sys.path: {{sys.path}}")
 
 try:
     # Dynamically import the module
-    print(f"Attempting to import module: '{module_name}'")
+    print(f"Attempting to import module: '{{module_name}}'")
     user_module = __import__(module_name)
     
-    # Check if the module has the main_script_logic function
-    if hasattr(user_module, 'main_script_logic'):
-        # Execute the main script logic directly with config
-        print("Executing main script logic with config...")
-        user_module.main_script_logic(config)
-    else:
-        # Fallback to manual function calls if main_script_logic is not available
-        print("Main script logic function not found, using manual function calls...")
-        print("警告: 无法找到 main_script_logic 函数，将使用手动函数调用模式。")
-        print("这可能是因为脚本版本不兼容或插件缺失。")
-        
-        # Get required functions
-        try:
-            setup_scene_units = getattr(user_module, 'setup_scene_units')
-            import_and_prepare_stl = getattr(user_module, 'import_and_prepare_stl')
-            setup_compositor_nodes = getattr(user_module, 'setup_compositor_nodes')
-            record_parameters_to_file = getattr(user_module, 'record_parameters_to_file')
-            render_reference_plane_depth_only = getattr(user_module, 'render_reference_plane_depth_only')
-        except AttributeError as e:
-            print("错误: 脚本中缺少必需的函数: " + str(e))
-            print("请确保使用的是正确版本的 '深度图数据集_v6.py' 脚本。")
-            sys.exit(1)
-        
-        print("Imported dataset generation functions successfully.")
-        
-        # Setup scene units
-        setup_scene_units()
-        print("Scene units set to centimeters")
-        
-        # Process configuration
-        paths = config.get("paths", {})
-        camera_config = config.get("camera", {})
-        projector_config = config.get("projector", {})
-        render_config = config.get("render", {})
-        advanced_config = config.get("advanced", {})
-        
-        # Get STL files - use raw strings to handle Unicode paths properly
-        stl_folder = paths.get("stl_folder", "")
-        if not stl_folder:
-            raise ValueError("STL folder path is empty in configuration")
-        # Handle Unicode paths properly
-        stl_folder = os.path.abspath(stl_folder)
-        if not os.path.exists(stl_folder):
-            raise ValueError(f"STL folder not found: {stl_folder}")
-        
-        try:
-            stl_files = [f for f in os.listdir(stl_folder) if f.lower().endswith('.stl')]
-        except UnicodeDecodeError:
-            # Handle potential Unicode issues in filenames
-            stl_files = []
-            for f in os.listdir(stl_folder):
-                try:
-                    if f.lower().endswith('.stl'):
-                        stl_files.append(f)
-                except UnicodeDecodeError:
-                    print(f"Warning: Skipping file with invalid Unicode name: {repr(f)}")
-                    continue
-        
-        if not stl_files:
-            raise ValueError(f"No STL files found in: {stl_folder}")
-        
-        print(f"Found {len(stl_files)} STL files")
-        
-        # Setup output directories - handle Unicode paths
-        output_base = paths.get("output_folder", "")
-        if not output_base:
-            raise ValueError("Output folder path is empty in configuration")
-        
-        # Ensure output directory exists and handle Unicode paths
-        output_base = os.path.abspath(output_base)
-            
-        pattern_output = os.path.join(output_base, "pattern")
-        depth_output = os.path.join(output_base, "depth")
-        ambient_output = os.path.join(output_base, "ambient")
-        
-        os.makedirs(pattern_output, exist_ok=True)
-        os.makedirs(depth_output, exist_ok=True)
-        os.makedirs(ambient_output, exist_ok=True)
-        
-        print(f"Output directories created: {output_base}")
-        
-        # Set up the scene with the provided configuration
-        # This would involve setting up camera, projector, render settings, etc.
-        # based on the configuration data
-        
-        # Process each STL file
-        total_files = len(stl_files)
-        for i, stl_file in enumerate(stl_files):
-            stl_path = os.path.join(stl_folder, stl_file)
-            print(f"Processing {stl_file} ({i+1}/{total_files})")
-            
-            # Import and prepare STL
-            import_and_prepare_stl(stl_path, "Current_Imported_STL", (60, 0.0, 0.0), 150.0)
-            
-            # Setup camera and projector based on config
-            # This would involve setting up the camera and projector positions
-            # from the configuration data
-            
-            # Render different views and patterns
-            # This would involve calling the appropriate rendering functions
-            # with the configured parameters
-            
-            # Update progress
-            progress = 20 + (i / total_files) * 70
-            print(f"PROGRESS: {progress}")
-        
-        # Save parameters
-        params_file = os.path.join(output_base, "scene_parameters.json")
-        # Get camera and projector objects for parameter recording
-        camera_obj = bpy.data.objects.get("Camera")
-        projector_obj = bpy.data.objects.get("Projector.Spot")
-        if camera_obj and projector_obj:
-            record_parameters_to_file(params_file, camera_obj, projector_obj)
-        else:
-            print("Warning: Could not find camera or projector objects for parameter recording")
-        
-        print("Dataset generation completed successfully!")
-        print(f"Output files saved to: {output_base}")
-        print(f"Parameters saved to: {params_file}")
+    # Execute the main script logic with config path
+    print("Executing main script logic with config path...")
+    user_module.main_script_logic(config_path)
 
 except ImportError as e:
-    print(f"FATAL ERROR: Could not import module '{module_name}' from path '{script_dir_to_add}'.")
+    print(f"FATAL ERROR: Could not import module '{{module_name}}' from path '{{script_dir_to_add}}'.")
     print("Please ensure the 'Blender脚本路径' in the GUI's Advanced Settings is correct.")
-    print(f"Current Blender sys.path: {sys.path}")
-    print(f"Import error details: {e}")
+    print(f"Current Blender sys.path: {{sys.path}}")
+    print(f"Import error details: {{e}}")
     sys.exit(1)
 except AttributeError as e:
-    print(f"FATAL ERROR: A function was not found in the module '{module_name}'. {e}")
+    print(f"FATAL ERROR: A function was not found in the module '{{module_name}}'. {{e}}")
     print("Please ensure your script '深度图数据集_v6.py' contains all required functions.")
-    sys.exit(1)
 except Exception as e:
-    print(f"Error during dataset generation: {str(e)}")
+    print(f"Error during dataset generation: {{str(e)}}")
     import traceback
     traceback.print_exc()
     sys.exit(1)
